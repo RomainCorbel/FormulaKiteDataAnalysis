@@ -4,6 +4,7 @@ This repository contains the datasets and analyses from the **Formula Kite testi
 The project focuses on two main aspects of performance:  
 - Straight runs (upwind & downwind speed testing)  
 - Maneuvers (tacks & gybes)  
+
 The datasets are not stored directly in this GitHub repository because of their large file sizes, which would make the repository heavy and inefficient to clone or update. All raw and pre-processed data are hosted externally on Marco’s drive and must be copied directly into the FormulaKiteDataAnalysis/ folder in order for the analysis scripts and notebooks
 ---
 

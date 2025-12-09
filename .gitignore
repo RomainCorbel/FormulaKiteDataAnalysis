@@ -1,0 +1,29 @@
+# --- Your private data folders ---
+Data_Sailnjord/
+Test Kite Port Camargue/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+
+# --- VS Code settings ---
+.vscode/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Logs ---
+*.log
+
+# --- Environment variables ---
+.env

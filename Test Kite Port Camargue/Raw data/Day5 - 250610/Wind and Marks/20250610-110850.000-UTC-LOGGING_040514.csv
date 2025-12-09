@@ -1,7 +1,0 @@
-Date,Time,Type,Message,Avg TWS,Max TWS,Min TWS,Avg TWD,Max Left,Max Right,Current Direction,Current Speed,Latitude,Longitude
-Date,Time Span,Tags,Text,Number,Number,Number,Number,Number,Number,Number,Number,Number,Number
-date-index-field,time,type,message,avgtws,maxtws,mintws,avgtwd,maxleft,maxrigt,currentdirection,currentspeed,latitude,longitude
-10.06.2025,11:59:34,POINT_OF_INTEREST,sbd upwind,6.456,8.7,4.8,215.08453,220.9,232.9,,,43.52658,4.108178
-10.06.2025,12:23:21,POINT_OF_INTEREST,Point Of Interest,5.5973334,9.9,4.2,223.56961,225.1,230.5,,,43.53776,4.10722
-10.06.2025,12:24:19,POINT_OF_INTEREST,PIN ,5.6823335,9.9,4.4,223.62204,221.1,230.5,,,43.53762,4.107003
-10.06.2025,12:25:14,POINT_OF_INTEREST, booat,5.712,9.9,4.5,222.90903,218.5,230.5,,,43.538048,4.106527

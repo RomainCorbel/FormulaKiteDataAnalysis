@@ -1,6 +1,0 @@
-Date,Time,Type,Message,Avg TWS,Max TWS,Min TWS,Avg TWD,Max Left,Max Right,Current Direction,Current Speed,Latitude,Longitude
-Date,Time Span,Tags,Text,Number,Number,Number,Number,Number,Number,Number,Number,Number,Number
-date-index-field,time,type,message,avgtws,maxtws,mintws,avgtwd,maxleft,maxrigt,currentdirection,currentspeed,latitude,longitude
-07.06.2025,11:40:09,POINT_OF_INTEREST,upwind mark,7.7965,9.6,6.3,203.9579,193.4,216.8,,,43.51071,4.0953035
-07.06.2025,11:45:51,POINT_OF_INTEREST,boat ,7.8163333,10.2,6.1,193.92546,180.7,216.8,,,43.520542,4.0874634
-07.06.2025,11:48:18,POINT_OF_INTEREST,pin,8.071667,10.4,6.1,186.18268,176.1,209.3,,,43.52055,4.0888186

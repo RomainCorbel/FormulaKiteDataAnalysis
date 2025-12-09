@@ -22,47 +22,47 @@ FormulaKiteDataAnalysis/
 │   └── Port Camargue June 2025/
 │       │
 │       ├── Maneuvers/
-│       │   ├── 08_06/
+│       │   ├── 08_06_2025/
 │       │   │   ├── Gian/
-│       │   │   │   └── 08_06_Run{1..5}/ (SenseBoard.csv)
+│       │   │   │   └── 08_06_2025_Run{1..5}/ (SenseBoard.csv)
 │       │   │   ├── Karl/
-│       │   │   │   └── 08_06_Run{1..6}/ (Karl Maeder.csv)
+│       │   │   │   └── 08_06_2025_Run{1..6}/ (Karl Maeder.csv)
 │       │   │   ├── senseboard_log/
 │       │   │   │   └── SenseBoard_log_modified_250608.xlsx
 │       │   │   └── Interview and equipment/
 │       │   │       ├── Interview Karl 250608.xlsx
 │       │   │       └── Interview SenseBoard 250608.xlsx
 │       │   │
-│       │   └── 11_06/
+│       │   └── 11_06_2025/
 │       │       ├── Gian/
-│       │       │   └── 11_06_Run{1..5}/ (Gian Stragiotti.csv | SenseBoard.csv)
+│       │       │   └── 11_06_2025_Run{1..5}/ (Gian Stragiotti.csv | SenseBoard.csv)
 │       │       ├── Karl/
-│       │       │   └── 11_06_Run{1..6}/ (Karl Maeder.csv)
+│       │       │   └── 11_06_2025_Run{1..6}/ (Karl Maeder.csv)
 │       │       ├── senseboard_log/
 │       │       │   └── …250611….xlsx
 │       │       └── Interview and equipment/
 │       │           └── …250611….xlsx
 │       │
 │       └── Straight_lines/
-│           ├── 06_06/
+│           ├── 06_06_2025/
 │           │   ├── Interview and equipment/
 │           │   ├── senseboard_log/
-│           │   └── 06_06_Run{1..8}/ (Gian.csv | Karl.csv | SenseBoard.csv)
+│           │   └── 06_06_2025_Run{1..8}/ (Gian.csv | Karl.csv | SenseBoard.csv)
 │           │
-│           ├── 07_06/
+│           ├── 07_06_2025/
 │           │   ├── Interview and equipment/
 │           │   ├── senseboard_log/
-│           │   └── 07_06_Run{1..10}/ (Gian.csv | Karl.csv | SenseBoard.csv)
+│           │   └── 07_06_2025_Run{1..10}/ (Gian.csv | Karl.csv | SenseBoard.csv)
 │           │
-│           ├── 09_06/
+│           ├── 09_06_2025/
 │           │   ├── Interview and equipment/
 │           │   ├── senseboard_log/
-│           │   └── 09_06_Run{1..11}/ (Karl.csv | SenseBoard.csv)
+│           │   └── 09_06_2025_Run{1..11}/ (Karl.csv | SenseBoard.csv)
 │           │
-│           └── 10_06/
+│           └── 10_06_2025/
 │               ├── Interview and equipment/
 │               ├── senseboard_log/
-│               └── 10_06_Run{1..10}/ (Gian.csv | Karl.csv | SenseBoard.csv)
+│               └── 10_06_2025_Run{1..10}/ (Gian.csv | Karl.csv | SenseBoard.csv)
 │
 ├── Maneuvers/                              # Python analysis workspace (maneuvers)
 │   ├── analysis notebooks & scripts

@@ -1,8 +1,8 @@
 [
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Gian",
-    "run": "08_06_Run1",
+    "run": "08_06_2025_Run1",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -103,9 +103,9 @@
     ]
   },
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Gian",
-    "run": "08_06_Run2",
+    "run": "08_06_2025_Run2",
     "intervals": [
       {
         "maneuver_index": 2,
@@ -198,9 +198,9 @@
     ]
   },
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Gian",
-    "run": "08_06_Run3",
+    "run": "08_06_2025_Run3",
     "intervals": [
       {
         "maneuver_index": 2,
@@ -293,9 +293,9 @@
     ]
   },
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Gian",
-    "run": "08_06_Run4",
+    "run": "08_06_2025_Run4",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -380,9 +380,9 @@
     ]
   },
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Gian",
-    "run": "08_06_Run5",
+    "run": "08_06_2025_Run5",
     "intervals": [
       {
         "maneuver_index": 2,
@@ -475,9 +475,9 @@
     ]
   },
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Karl",
-    "run": "08_06_Run1",
+    "run": "08_06_2025_Run1",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -586,9 +586,9 @@
     ]
   },
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Karl",
-    "run": "08_06_Run2",
+    "run": "08_06_2025_Run2",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -681,9 +681,9 @@
     ]
   },
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Karl",
-    "run": "08_06_Run3",
+    "run": "08_06_2025_Run3",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -784,9 +784,9 @@
     ]
   },
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Karl",
-    "run": "08_06_Run4",
+    "run": "08_06_2025_Run4",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -879,9 +879,9 @@
     ]
   },
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Karl",
-    "run": "08_06_Run5",
+    "run": "08_06_2025_Run5",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -974,9 +974,9 @@
     ]
   },
   {
-    "date": "08_06",
+    "date": "08_06_2025",
     "person": "Karl",
-    "run": "08_06_Run6",
+    "run": "08_06_2025_Run6",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -1069,9 +1069,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Gian",
-    "run": "11_06_Run1",
+    "run": "11_06_2025_Run1",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -1172,9 +1172,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Gian",
-    "run": "11_06_Run2",
+    "run": "11_06_2025_Run2",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -1267,9 +1267,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Gian",
-    "run": "11_06_Run3",
+    "run": "11_06_2025_Run3",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -1370,9 +1370,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Gian",
-    "run": "11_06_Run4",
+    "run": "11_06_2025_Run4",
     "intervals": [
       {
         "maneuver_index": 2,
@@ -1465,9 +1465,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Gian",
-    "run": "11_06_Run5",
+    "run": "11_06_2025_Run5",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -1560,9 +1560,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Karl",
-    "run": "11_06_Run1",
+    "run": "11_06_2025_Run1",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -1655,9 +1655,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Karl",
-    "run": "11_06_Run2",
+    "run": "11_06_2025_Run2",
     "intervals": [
       {
         "maneuver_index": 2,
@@ -1758,9 +1758,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Karl",
-    "run": "11_06_Run3",
+    "run": "11_06_2025_Run3",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -1861,9 +1861,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Karl",
-    "run": "11_06_Run4",
+    "run": "11_06_2025_Run4",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -1948,9 +1948,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Karl",
-    "run": "11_06_Run5",
+    "run": "11_06_2025_Run5",
     "intervals": [
       {
         "maneuver_index": 1,
@@ -2051,9 +2051,9 @@
     ]
   },
   {
-    "date": "11_06",
+    "date": "11_06_2025",
     "person": "Karl",
-    "run": "11_06_Run6",
+    "run": "11_06_2025_Run6",
     "intervals": [
       {
         "maneuver_index": 1,

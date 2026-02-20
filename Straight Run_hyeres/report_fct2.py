@@ -797,6 +797,6 @@ def run_all(df_all, summary, TOP_N=5, onlyUpwind=False, onlyDownwind=False, ride
         top5,
         df_all,
         smooth_frac=smooth_frac
-    )
+    ) 
 
     return top

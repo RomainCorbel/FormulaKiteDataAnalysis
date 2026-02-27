@@ -1,0 +1,2156 @@
+[
+  {
+    "date": "08_06_2025",
+    "person": "Gian",
+    "run": "08_06_2025_Run1",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749369722.957,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749369716.072,
+        "end_time": 1749369730.072
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749369738.263,
+        "maneuver_type": "Tack",
+        "duration": 13.911999940872192,
+        "start_time": 1749369731.355,
+        "end_time": 1749369745.267
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749369753.357,
+        "maneuver_type": "Tack",
+        "duration": 14.08400011062622,
+        "start_time": 1749369746.36,
+        "end_time": 1749369760.444
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749369772.556,
+        "maneuver_type": "Tack",
+        "duration": 14.002000093460083,
+        "start_time": 1749369765.556,
+        "end_time": 1749369779.558
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749369797.155,
+        "maneuver_type": "Jibe",
+        "duration": 14.098999977111816,
+        "start_time": 1749369790.157,
+        "end_time": 1749369804.256
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749369823.556,
+        "maneuver_type": "Jibe",
+        "duration": 14.005000114440918,
+        "start_time": 1749369816.656,
+        "end_time": 1749369830.661
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749369853.546,
+        "maneuver_type": "Tack",
+        "duration": 14.104000091552734,
+        "start_time": 1749369846.553,
+        "end_time": 1749369860.657
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749369871.859,
+        "maneuver_type": "Tack",
+        "duration": 13.997999906539917,
+        "start_time": 1749369864.956,
+        "end_time": 1749369878.954
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749369888.356,
+        "maneuver_type": "Tack",
+        "duration": 14.002999782562256,
+        "start_time": 1749369881.357,
+        "end_time": 1749369895.36
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749369913.26,
+        "maneuver_type": "Tack",
+        "duration": 13.910000085830688,
+        "start_time": 1749369906.355,
+        "end_time": 1749369920.265
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749369935.956,
+        "maneuver_type": "Jibe",
+        "duration": 14.099999904632568,
+        "start_time": 1749369928.956,
+        "end_time": 1749369943.056
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749369969.358,
+        "maneuver_type": "Jibe",
+        "duration": 14.098000049591064,
+        "start_time": 1749369962.358,
+        "end_time": 1749369976.456
+      }
+    ]
+  },
+  {
+    "date": "08_06_2025",
+    "person": "Gian",
+    "run": "08_06_2025_Run2",
+    "intervals": [
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749370503.459,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749370496.555,
+        "end_time": 1749370510.555
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749370520.356,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749370513.357,
+        "end_time": 1749370527.357
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749370542.556,
+        "maneuver_type": "Tack",
+        "duration": 14.101999998092651,
+        "start_time": 1749370535.556,
+        "end_time": 1749370549.658
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749370556.065,
+        "maneuver_type": "Tack",
+        "duration": 13.997999906539917,
+        "start_time": 1749370549.068,
+        "end_time": 1749370563.066
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749370579.446,
+        "maneuver_type": "Jibe",
+        "duration": 14.01799988746643,
+        "start_time": 1749370572.446,
+        "end_time": 1749370586.464
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749370612.857,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749370605.858,
+        "end_time": 1749370619.858
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749370640.556,
+        "maneuver_type": "Tack",
+        "duration": 14.101999998092651,
+        "start_time": 1749370633.556,
+        "end_time": 1749370647.658
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749370666.657,
+        "maneuver_type": "Tack",
+        "duration": 14.098999977111816,
+        "start_time": 1749370659.657,
+        "end_time": 1749370673.756
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749370686.746,
+        "maneuver_type": "Tack",
+        "duration": 13.897000074386597,
+        "start_time": 1749370679.858,
+        "end_time": 1749370693.755
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749370717.447,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749370710.457,
+        "end_time": 1749370724.457
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749370748.456,
+        "maneuver_type": "Jibe",
+        "duration": 14.095999956130981,
+        "start_time": 1749370741.46,
+        "end_time": 1749370755.556
+      }
+    ]
+  },
+  {
+    "date": "08_06_2025",
+    "person": "Gian",
+    "run": "08_06_2025_Run3",
+    "intervals": [
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749371050.753,
+        "maneuver_type": "Tack",
+        "duration": 14.104000091552734,
+        "start_time": 1749371043.753,
+        "end_time": 1749371057.857
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749371067.744,
+        "maneuver_type": "Tack",
+        "duration": 14.002000093460083,
+        "start_time": 1749371060.753,
+        "end_time": 1749371074.755
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749371085.048,
+        "maneuver_type": "Tack",
+        "duration": 13.992000102996826,
+        "start_time": 1749371078.064,
+        "end_time": 1749371092.056
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749371100.144,
+        "maneuver_type": "Tack",
+        "duration": 14.002000093460083,
+        "start_time": 1749371093.155,
+        "end_time": 1749371107.157
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749371128.355,
+        "maneuver_type": "Jibe",
+        "duration": 14.1010000705719,
+        "start_time": 1749371121.355,
+        "end_time": 1749371135.456
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749371160.257,
+        "maneuver_type": "Jibe",
+        "duration": 13.995000123977661,
+        "start_time": 1749371153.264,
+        "end_time": 1749371167.259
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749371187.446,
+        "maneuver_type": "Tack",
+        "duration": 13.996000051498413,
+        "start_time": 1749371180.46,
+        "end_time": 1749371194.456
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749371207.264,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749371200.355,
+        "end_time": 1749371214.355
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749371230.156,
+        "maneuver_type": "Tack",
+        "duration": 13.894999980926514,
+        "start_time": 1749371223.262,
+        "end_time": 1749371237.157
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749371244.555,
+        "maneuver_type": "Tack",
+        "duration": 14.1010000705719,
+        "start_time": 1749371237.556,
+        "end_time": 1749371251.657
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749371268.448,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749371261.456,
+        "end_time": 1749371275.456
+      }
+    ]
+  },
+  {
+    "date": "08_06_2025",
+    "person": "Gian",
+    "run": "08_06_2025_Run4",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749371622.553,
+        "maneuver_type": "Tack",
+        "duration": 14.002000093460083,
+        "start_time": 1749371615.553,
+        "end_time": 1749371629.555
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749371643.157,
+        "maneuver_type": "Tack",
+        "duration": 13.99399995803833,
+        "start_time": 1749371636.262,
+        "end_time": 1749371650.256
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749371660.556,
+        "maneuver_type": "Tack",
+        "duration": 13.998999834060669,
+        "start_time": 1749371653.657,
+        "end_time": 1749371667.656
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749371696.055,
+        "maneuver_type": "Jibe",
+        "duration": 14.000999927520752,
+        "start_time": 1749371689.055,
+        "end_time": 1749371703.056
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749371816.857,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749371809.858,
+        "end_time": 1749371823.858
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749371842.059,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749371835.062,
+        "end_time": 1749371849.062
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749371864.857,
+        "maneuver_type": "Tack",
+        "duration": 13.90499997138977,
+        "start_time": 1749371857.953,
+        "end_time": 1749371871.858
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749371881.753,
+        "maneuver_type": "Buoy",
+        "duration": 14.002000093460083,
+        "start_time": 1749371874.753,
+        "end_time": 1749371888.755
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749371903.06,
+        "maneuver_type": "Jibe",
+        "duration": 14.002000093460083,
+        "start_time": 1749371896.06,
+        "end_time": 1749371910.062
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749371934.257,
+        "maneuver_type": "Jibe",
+        "duration": 14.09500002861023,
+        "start_time": 1749371927.26,
+        "end_time": 1749371941.355
+      }
+    ]
+  },
+  {
+    "date": "08_06_2025",
+    "person": "Gian",
+    "run": "08_06_2025_Run5",
+    "intervals": [
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749372318.055,
+        "maneuver_type": "Tack",
+        "duration": 14.098000049591064,
+        "start_time": 1749372311.056,
+        "end_time": 1749372325.154
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749372342.256,
+        "maneuver_type": "Tack",
+        "duration": 14.098000049591064,
+        "start_time": 1749372335.257,
+        "end_time": 1749372349.355
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749372364.752,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749372357.753,
+        "end_time": 1749372371.753
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749372380.154,
+        "maneuver_type": "Buoy",
+        "duration": 14.000999927520752,
+        "start_time": 1749372373.154,
+        "end_time": 1749372387.155
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749372403.354,
+        "maneuver_type": "Jibe",
+        "duration": 14.1010000705719,
+        "start_time": 1749372396.355,
+        "end_time": 1749372410.456
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749372475.856,
+        "maneuver_type": "Tack",
+        "duration": 14.002999782562256,
+        "start_time": 1749372468.857,
+        "end_time": 1749372482.86
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749372501.256,
+        "maneuver_type": "Tack",
+        "duration": 14.09500002861023,
+        "start_time": 1749372494.26,
+        "end_time": 1749372508.355
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749372519.752,
+        "maneuver_type": "Tack",
+        "duration": 13.900000095367432,
+        "start_time": 1749372512.856,
+        "end_time": 1749372526.756
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749372535.553,
+        "maneuver_type": "Buoy",
+        "duration": 14.102999925613403,
+        "start_time": 1749372528.553,
+        "end_time": 1749372542.656
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749372560.26,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749372553.354,
+        "end_time": 1749372567.354
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749372596.454,
+        "maneuver_type": "Jibe",
+        "duration": 14.098000049591064,
+        "start_time": 1749372589.454,
+        "end_time": 1749372603.552
+      }
+    ]
+  },
+  {
+    "date": "08_06_2025",
+    "person": "Karl",
+    "run": "08_06_2025_Run1",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749368866.858,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749368859.859,
+        "end_time": 1749368873.859
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749368884.759,
+        "maneuver_type": "Tack",
+        "duration": 14.10099983215332,
+        "start_time": 1749368877.759,
+        "end_time": 1749368891.86
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749368897.957,
+        "maneuver_type": "Tack",
+        "duration": 14.115999937057495,
+        "start_time": 1749368890.957,
+        "end_time": 1749368905.073
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749368916.959,
+        "maneuver_type": "Tack",
+        "duration": 13.88700008392334,
+        "start_time": 1749368910.073,
+        "end_time": 1749368923.96
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749368939.359,
+        "maneuver_type": "Jibe",
+        "duration": 14.098000049591064,
+        "start_time": 1749368932.359,
+        "end_time": 1749368946.457
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749368954.052,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749368947.062,
+        "end_time": 1749368961.062
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749368966.161,
+        "maneuver_type": "Jibe",
+        "duration": 14.002000093460083,
+        "start_time": 1749368959.26,
+        "end_time": 1749368973.262
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749369029.161,
+        "maneuver_type": "Tack",
+        "duration": 13.997999906539917,
+        "start_time": 1749369022.262,
+        "end_time": 1749369036.26
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749369046.158,
+        "maneuver_type": "Tack",
+        "duration": 14.003000020980835,
+        "start_time": 1749369039.16,
+        "end_time": 1749369053.163
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749369061.459,
+        "maneuver_type": "Tack",
+        "duration": 14.003000020980835,
+        "start_time": 1749369054.558,
+        "end_time": 1749369068.561
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749369086.36,
+        "maneuver_type": "Tack",
+        "duration": 13.993000030517578,
+        "start_time": 1749369079.466,
+        "end_time": 1749369093.459
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749369111.459,
+        "maneuver_type": "Jibe",
+        "duration": 14.002000093460083,
+        "start_time": 1749369104.559,
+        "end_time": 1749369118.561
+      },
+      {
+        "maneuver_index": 14,
+        "maneuver_time": 1749369126.36,
+        "maneuver_type": "Jibe",
+        "duration": 14.100000143051147,
+        "start_time": 1749369119.36,
+        "end_time": 1749369133.46
+      }
+    ]
+  },
+  {
+    "date": "08_06_2025",
+    "person": "Karl",
+    "run": "08_06_2025_Run2",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749369697.559,
+        "maneuver_type": "Tack",
+        "duration": 14.096999883651733,
+        "start_time": 1749369690.561,
+        "end_time": 1749369704.658
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749369716.657,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749369709.658,
+        "end_time": 1749369723.658
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749369728.859,
+        "maneuver_type": "Tack",
+        "duration": 13.98799991607666,
+        "start_time": 1749369721.96,
+        "end_time": 1749369735.948
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749369745.056,
+        "maneuver_type": "Buoy",
+        "duration": 13.898000001907349,
+        "start_time": 1749369738.16,
+        "end_time": 1749369752.058
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749369771.86,
+        "maneuver_type": "Jibe",
+        "duration": 14.000999927520752,
+        "start_time": 1749369764.959,
+        "end_time": 1749369778.96
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749369824.358,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749369817.359,
+        "end_time": 1749369831.36
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749369839.262,
+        "maneuver_type": "Tack",
+        "duration": 14.097999811172485,
+        "start_time": 1749369832.262,
+        "end_time": 1749369846.36
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749369855.262,
+        "maneuver_type": "Tack",
+        "duration": 14.09499979019165,
+        "start_time": 1749369848.265,
+        "end_time": 1749369862.36
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749369881.558,
+        "maneuver_type": "Tack",
+        "duration": 14.098000049591064,
+        "start_time": 1749369874.56,
+        "end_time": 1749369888.658
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749369903.556,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749369896.559,
+        "end_time": 1749369910.559
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749369932.164,
+        "maneuver_type": "Jibe",
+        "duration": 13.997999906539917,
+        "start_time": 1749369925.262,
+        "end_time": 1749369939.26
+      }
+    ]
+  },
+  {
+    "date": "08_06_2025",
+    "person": "Karl",
+    "run": "08_06_2025_Run3",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749370336.062,
+        "maneuver_type": "Tack",
+        "duration": 14.001999855041504,
+        "start_time": 1749370329.062,
+        "end_time": 1749370343.064
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749370350.959,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749370344.075,
+        "end_time": 1749370358.075
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749370364.556,
+        "maneuver_type": "Tack",
+        "duration": 14.1010000705719,
+        "start_time": 1749370357.556,
+        "end_time": 1749370371.657
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749370384.147,
+        "maneuver_type": "Tack",
+        "duration": 14.005000114440918,
+        "start_time": 1749370377.158,
+        "end_time": 1749370391.163
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749370408.46,
+        "maneuver_type": "Jibe",
+        "duration": 14.003000020980835,
+        "start_time": 1749370401.556,
+        "end_time": 1749370415.559
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749370438.757,
+        "maneuver_type": "Jibe",
+        "duration": 14.101999998092651,
+        "start_time": 1749370431.757,
+        "end_time": 1749370445.859
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749370470.556,
+        "maneuver_type": "Tack",
+        "duration": 14.099999904632568,
+        "start_time": 1749370463.558,
+        "end_time": 1749370477.658
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749370489.956,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749370482.956,
+        "end_time": 1749370496.957
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749370507.358,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749370500.36,
+        "end_time": 1749370514.36
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749370528.457,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749370521.459,
+        "end_time": 1749370535.46
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749370554.157,
+        "maneuver_type": "Jibe",
+        "duration": 14.002000093460083,
+        "start_time": 1749370547.26,
+        "end_time": 1749370561.262
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749370583.762,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749370576.859,
+        "end_time": 1749370590.859
+      }
+    ]
+  },
+  {
+    "date": "08_06_2025",
+    "person": "Karl",
+    "run": "08_06_2025_Run4",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749370909.051,
+        "maneuver_type": "Tack",
+        "duration": 14.08899998664856,
+        "start_time": 1749370902.075,
+        "end_time": 1749370916.164
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749370924.957,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749370917.959,
+        "end_time": 1749370931.959
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749370938.264,
+        "maneuver_type": "Tack",
+        "duration": 13.998000144958496,
+        "start_time": 1749370931.36,
+        "end_time": 1749370945.358
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749370956.26,
+        "maneuver_type": "Tack",
+        "duration": 13.999000072479248,
+        "start_time": 1749370949.36,
+        "end_time": 1749370963.359
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749370988.558,
+        "maneuver_type": "Jibe",
+        "duration": 13.998000144958496,
+        "start_time": 1749370981.563,
+        "end_time": 1749370995.561
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749371052.161,
+        "maneuver_type": "Tack",
+        "duration": 13.999000072479248,
+        "start_time": 1749371045.164,
+        "end_time": 1749371059.163
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749371068.546,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749371061.558,
+        "end_time": 1749371075.558
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749371084.558,
+        "maneuver_type": "Tack",
+        "duration": 14.098000049591064,
+        "start_time": 1749371077.56,
+        "end_time": 1749371091.658
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749371109.859,
+        "maneuver_type": "Tack",
+        "duration": 14.099000215530396,
+        "start_time": 1749371102.86,
+        "end_time": 1749371116.959
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749371140.558,
+        "maneuver_type": "Jibe",
+        "duration": 13.999000072479248,
+        "start_time": 1749371133.56,
+        "end_time": 1749371147.559
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749371172.848,
+        "maneuver_type": "Jibe",
+        "duration": 13.999000072479248,
+        "start_time": 1749371165.859,
+        "end_time": 1749371179.858
+      }
+    ]
+  },
+  {
+    "date": "08_06_2025",
+    "person": "Karl",
+    "run": "08_06_2025_Run5",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749371549.164,
+        "maneuver_type": "Tack",
+        "duration": 13.996999979019165,
+        "start_time": 1749371542.263,
+        "end_time": 1749371556.26
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749371563.457,
+        "maneuver_type": "Tack",
+        "duration": 14.095999956130981,
+        "start_time": 1749371556.46,
+        "end_time": 1749371570.556
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749371578.075,
+        "maneuver_type": "Tack",
+        "duration": 13.99399995803833,
+        "start_time": 1749371571.157,
+        "end_time": 1749371585.151
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749371595.858,
+        "maneuver_type": "Tack",
+        "duration": 14.1010000705719,
+        "start_time": 1749371588.858,
+        "end_time": 1749371602.959
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749371622.66,
+        "maneuver_type": "Jibe",
+        "duration": 13.999000072479248,
+        "start_time": 1749371615.757,
+        "end_time": 1749371629.756
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749371693.956,
+        "maneuver_type": "Tack",
+        "duration": 14.003000020980835,
+        "start_time": 1749371686.956,
+        "end_time": 1749371700.959
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749371709.76,
+        "maneuver_type": "Tack",
+        "duration": 13.999000072479248,
+        "start_time": 1749371702.86,
+        "end_time": 1749371716.859
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749371724.846,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749371717.858,
+        "end_time": 1749371731.858
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749371742.457,
+        "maneuver_type": "Tack",
+        "duration": 13.903000116348267,
+        "start_time": 1749371735.556,
+        "end_time": 1749371749.459
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749371791.46,
+        "maneuver_type": "Jibe",
+        "duration": 13.997999906539917,
+        "start_time": 1749371784.558,
+        "end_time": 1749371798.556
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749371824.756,
+        "maneuver_type": "Jibe",
+        "duration": 14.003000020980835,
+        "start_time": 1749371817.756,
+        "end_time": 1749371831.759
+      }
+    ]
+  },
+  {
+    "date": "08_06_2025",
+    "person": "Karl",
+    "run": "08_06_2025_Run6",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749372257.161,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749372250.259,
+        "end_time": 1749372264.259
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749372274.859,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749372267.956,
+        "end_time": 1749372281.956
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749372293.456,
+        "maneuver_type": "Tack",
+        "duration": 14.098999977111816,
+        "start_time": 1749372286.456,
+        "end_time": 1749372300.555
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749372314.061,
+        "maneuver_type": "Tack",
+        "duration": 14.093000173568726,
+        "start_time": 1749372307.064,
+        "end_time": 1749372321.157
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749372356.657,
+        "maneuver_type": "Jibe",
+        "duration": 14.098999977111816,
+        "start_time": 1749372349.657,
+        "end_time": 1749372363.756
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749372429.157,
+        "maneuver_type": "Tack",
+        "duration": 13.99399995803833,
+        "start_time": 1749372422.164,
+        "end_time": 1749372436.158
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749372446.556,
+        "maneuver_type": "Tack",
+        "duration": 14.098000049591064,
+        "start_time": 1749372439.559,
+        "end_time": 1749372453.657
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749372463.456,
+        "maneuver_type": "Tack",
+        "duration": 14.096999883651733,
+        "start_time": 1749372456.459,
+        "end_time": 1749372470.556
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749372490.06,
+        "maneuver_type": "Tack",
+        "duration": 14.003999948501587,
+        "start_time": 1749372483.157,
+        "end_time": 1749372497.161
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749372518.053,
+        "maneuver_type": "Jibe",
+        "duration": 14.104000091552734,
+        "start_time": 1749372511.053,
+        "end_time": 1749372525.157
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749372550.26,
+        "maneuver_type": "Jibe",
+        "duration": 14.001999855041504,
+        "start_time": 1749372543.262,
+        "end_time": 1749372557.264
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Gian",
+    "run": "11_06_2025_Run1",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749644590.26,
+        "maneuver_type": "Tack",
+        "duration": 13.905999898910522,
+        "start_time": 1749644583.358,
+        "end_time": 1749644597.264
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749644613.259,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749644606.26,
+        "end_time": 1749644620.26
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749644630.559,
+        "maneuver_type": "Tack",
+        "duration": 13.996999979019165,
+        "start_time": 1749644623.66,
+        "end_time": 1749644637.657
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749644654.36,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749644647.456,
+        "end_time": 1749644661.457
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749644683.756,
+        "maneuver_type": "Jibe",
+        "duration": 14.1010000705719,
+        "start_time": 1749644676.757,
+        "end_time": 1749644690.858
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749644714.061,
+        "maneuver_type": "Jibe",
+        "duration": 13.90499997138977,
+        "start_time": 1749644707.16,
+        "end_time": 1749644721.065
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749644756.956,
+        "maneuver_type": "Tack",
+        "duration": 14.003000020980835,
+        "start_time": 1749644749.957,
+        "end_time": 1749644763.96
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749644778.16,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749644771.26,
+        "end_time": 1749644785.26
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749644791.457,
+        "maneuver_type": "Tack",
+        "duration": 14.1010000705719,
+        "start_time": 1749644784.457,
+        "end_time": 1749644798.558
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749644820.56,
+        "maneuver_type": "Tack",
+        "duration": 14.097000122070312,
+        "start_time": 1749644813.56,
+        "end_time": 1749644827.657
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749644852.446,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749644845.456,
+        "end_time": 1749644859.456
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749644878.556,
+        "maneuver_type": "Jibe",
+        "duration": 13.998999834060669,
+        "start_time": 1749644871.657,
+        "end_time": 1749644885.656
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Gian",
+    "run": "11_06_2025_Run2",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749645676.157,
+        "maneuver_type": "Tack",
+        "duration": 14.006999969482422,
+        "start_time": 1749645669.157,
+        "end_time": 1749645683.164
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749645697.075,
+        "maneuver_type": "Tack",
+        "duration": 14.085000038146973,
+        "start_time": 1749645690.076,
+        "end_time": 1749645704.161
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749645717.156,
+        "maneuver_type": "Tack",
+        "duration": 14.096999883651733,
+        "start_time": 1749645710.16,
+        "end_time": 1749645724.257
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749645740.658,
+        "maneuver_type": "Tack",
+        "duration": 13.90499997138977,
+        "start_time": 1749645733.756,
+        "end_time": 1749645747.661
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749645772.161,
+        "maneuver_type": "Jibe",
+        "duration": 14.000999927520752,
+        "start_time": 1749645765.259,
+        "end_time": 1749645779.26
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749645810.157,
+        "maneuver_type": "Jibe",
+        "duration": 14.09500002861023,
+        "start_time": 1749645803.164,
+        "end_time": 1749645817.259
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749645845.657,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749645838.756,
+        "end_time": 1749645852.756
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749645875.052,
+        "maneuver_type": "Tack",
+        "duration": 14.108999967575073,
+        "start_time": 1749645868.052,
+        "end_time": 1749645882.161
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749645894.357,
+        "maneuver_type": "Tack",
+        "duration": 14.1010000705719,
+        "start_time": 1749645887.358,
+        "end_time": 1749645901.459
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749645914.756,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749645907.756,
+        "end_time": 1749645921.757
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749645949.257,
+        "maneuver_type": "Jibe",
+        "duration": 13.996999979019165,
+        "start_time": 1749645942.262,
+        "end_time": 1749645956.259
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Gian",
+    "run": "11_06_2025_Run3",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749646370.16,
+        "maneuver_type": "Tack",
+        "duration": 13.997999906539917,
+        "start_time": 1749646363.259,
+        "end_time": 1749646377.257
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749646390.756,
+        "maneuver_type": "Tack",
+        "duration": 14.1010000705719,
+        "start_time": 1749646383.756,
+        "end_time": 1749646397.857
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749646410.657,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749646403.658,
+        "end_time": 1749646417.658
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749646434.457,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749646427.556,
+        "end_time": 1749646441.556
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749646463.344,
+        "maneuver_type": "Jibe",
+        "duration": 13.998999834060669,
+        "start_time": 1749646456.357,
+        "end_time": 1749646470.356
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749646501.156,
+        "maneuver_type": "Jibe",
+        "duration": 14.105000019073486,
+        "start_time": 1749646494.157,
+        "end_time": 1749646508.262
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749646540.956,
+        "maneuver_type": "Tack",
+        "duration": 14.09500002861023,
+        "start_time": 1749646533.956,
+        "end_time": 1749646548.051
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749646561.756,
+        "maneuver_type": "Tack",
+        "duration": 14.103999853134155,
+        "start_time": 1749646554.756,
+        "end_time": 1749646568.86
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749646577.658,
+        "maneuver_type": "Tack",
+        "duration": 14.099999904632568,
+        "start_time": 1749646570.66,
+        "end_time": 1749646584.76
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749646604.956,
+        "maneuver_type": "Tack",
+        "duration": 14.122999906539917,
+        "start_time": 1749646597.956,
+        "end_time": 1749646612.079
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749646637.459,
+        "maneuver_type": "Jibe",
+        "duration": 14.003999948501587,
+        "start_time": 1749646630.556,
+        "end_time": 1749646644.56
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749646673.954,
+        "maneuver_type": "Jibe",
+        "duration": 13.878000020980835,
+        "start_time": 1749646667.078,
+        "end_time": 1749646680.956
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Gian",
+    "run": "11_06_2025_Run4",
+    "intervals": [
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749646949.759,
+        "maneuver_type": "Tack",
+        "duration": 13.901000022888184,
+        "start_time": 1749646942.859,
+        "end_time": 1749646956.76
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749646973.358,
+        "maneuver_type": "Tack",
+        "duration": 14.001999855041504,
+        "start_time": 1749646966.358,
+        "end_time": 1749646980.36
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749646988.759,
+        "maneuver_type": "Tack",
+        "duration": 14.098999977111816,
+        "start_time": 1749646981.76,
+        "end_time": 1749646995.859
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749647013.358,
+        "maneuver_type": "Buoy",
+        "duration": 14.098000049591064,
+        "start_time": 1749647006.358,
+        "end_time": 1749647020.456
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749647040.063,
+        "maneuver_type": "Jibe",
+        "duration": 14.081000089645386,
+        "start_time": 1749647033.076,
+        "end_time": 1749647047.157
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749647111.556,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749647104.558,
+        "end_time": 1749647118.558
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749647140.358,
+        "maneuver_type": "Tack",
+        "duration": 14.098000049591064,
+        "start_time": 1749647133.358,
+        "end_time": 1749647147.456
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749647156.959,
+        "maneuver_type": "Tack",
+        "duration": 14.00599980354309,
+        "start_time": 1749647150.058,
+        "end_time": 1749647164.064
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749647173.063,
+        "maneuver_type": "Tack",
+        "duration": 14.085000038146973,
+        "start_time": 1749647166.079,
+        "end_time": 1749647180.164
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749647198.259,
+        "maneuver_type": "Jibe",
+        "duration": 14.097000122070312,
+        "start_time": 1749647191.26,
+        "end_time": 1749647205.357
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749647236.06,
+        "maneuver_type": "Jibe",
+        "duration": 14.101999998092651,
+        "start_time": 1749647229.062,
+        "end_time": 1749647243.164
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Gian",
+    "run": "11_06_2025_Run5",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749647532.556,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749647525.558,
+        "end_time": 1749647539.559
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749647557.259,
+        "maneuver_type": "Tack",
+        "duration": 14.096999883651733,
+        "start_time": 1749647550.259,
+        "end_time": 1749647564.356
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749647574.658,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749647567.756,
+        "end_time": 1749647581.756
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749647596.556,
+        "maneuver_type": "Tack",
+        "duration": 14.104000091552734,
+        "start_time": 1749647589.556,
+        "end_time": 1749647603.66
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749647630.16,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749647623.257,
+        "end_time": 1749647637.257
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749647664.857,
+        "maneuver_type": "Jibe",
+        "duration": 14.097000122070312,
+        "start_time": 1749647657.859,
+        "end_time": 1749647671.956
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749647702.459,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749647695.556,
+        "end_time": 1749647709.556
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749647730.157,
+        "maneuver_type": "Tack",
+        "duration": 13.895999908447266,
+        "start_time": 1749647723.262,
+        "end_time": 1749647737.158
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749647749.559,
+        "maneuver_type": "Tack",
+        "duration": 14.001000165939331,
+        "start_time": 1749647742.656,
+        "end_time": 1749647756.657
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749647770.657,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749647763.657,
+        "end_time": 1749647777.658
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749647797.956,
+        "maneuver_type": "Jibe",
+        "duration": 14.000999927520752,
+        "start_time": 1749647790.956,
+        "end_time": 1749647804.957
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Karl",
+    "run": "11_06_2025_Run1",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749644699.757,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749644692.759,
+        "end_time": 1749644706.76
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749644721.459,
+        "maneuver_type": "Tack",
+        "duration": 13.998000144958496,
+        "start_time": 1749644714.56,
+        "end_time": 1749644728.558
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749644738.257,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749644731.36,
+        "end_time": 1749644745.36
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749644766.657,
+        "maneuver_type": "Tack",
+        "duration": 14.101999998092651,
+        "start_time": 1749644759.657,
+        "end_time": 1749644773.759
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749644789.856,
+        "maneuver_type": "Jibe",
+        "duration": 13.997999906539917,
+        "start_time": 1749644782.959,
+        "end_time": 1749644796.957
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749644821.855,
+        "maneuver_type": "Jibe",
+        "duration": 14.003000020980835,
+        "start_time": 1749644814.956,
+        "end_time": 1749644828.959
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749644870.757,
+        "maneuver_type": "Tack",
+        "duration": 14.098000049591064,
+        "start_time": 1749644863.759,
+        "end_time": 1749644877.857
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749644889.16,
+        "maneuver_type": "Tack",
+        "duration": 14.09500002861023,
+        "start_time": 1749644882.161,
+        "end_time": 1749644896.256
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749644908.844,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749644901.856,
+        "end_time": 1749644915.856
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749644978.558,
+        "maneuver_type": "Jibe",
+        "duration": 14.096999883651733,
+        "start_time": 1749644971.559,
+        "end_time": 1749644985.656
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749645011.855,
+        "maneuver_type": "Jibe",
+        "duration": 14.092999935150146,
+        "start_time": 1749645004.855,
+        "end_time": 1749645018.948
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Karl",
+    "run": "11_06_2025_Run2",
+    "intervals": [
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749645436.456,
+        "maneuver_type": "Tack",
+        "duration": 14.102999925613403,
+        "start_time": 1749645429.456,
+        "end_time": 1749645443.559
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749645451.856,
+        "maneuver_type": "Tack",
+        "duration": 14.105000019073486,
+        "start_time": 1749645444.856,
+        "end_time": 1749645458.961
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749645467.756,
+        "maneuver_type": "Tack",
+        "duration": 13.999000072479248,
+        "start_time": 1749645460.76,
+        "end_time": 1749645474.759
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749645507.656,
+        "maneuver_type": "Tack",
+        "duration": 14.003000020980835,
+        "start_time": 1749645500.757,
+        "end_time": 1749645514.76
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749645536.161,
+        "maneuver_type": "Jibe",
+        "duration": 13.911999940872192,
+        "start_time": 1749645529.255,
+        "end_time": 1749645543.167
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749645564.857,
+        "maneuver_type": "Jibe",
+        "duration": 13.999000072479248,
+        "start_time": 1749645557.96,
+        "end_time": 1749645571.959
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749645608.358,
+        "maneuver_type": "Tack",
+        "duration": 14.09500002861023,
+        "start_time": 1749645601.359,
+        "end_time": 1749645615.454
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749645628.36,
+        "maneuver_type": "Tack",
+        "duration": 14.094000101089478,
+        "start_time": 1749645621.36,
+        "end_time": 1749645635.454
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749645646.16,
+        "maneuver_type": "Tack",
+        "duration": 14.003000020980835,
+        "start_time": 1749645639.16,
+        "end_time": 1749645653.163
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749645673.56,
+        "maneuver_type": "Tack",
+        "duration": 14.093999862670898,
+        "start_time": 1749645666.561,
+        "end_time": 1749645680.655
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749645711.552,
+        "maneuver_type": "Jibe",
+        "duration": 13.904000043869019,
+        "start_time": 1749645704.655,
+        "end_time": 1749645718.559
+      },
+      {
+        "maneuver_index": 14,
+        "maneuver_time": 1749645746.559,
+        "maneuver_type": "Jibe",
+        "duration": 13.904000043869019,
+        "start_time": 1749645739.657,
+        "end_time": 1749645753.561
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Karl",
+    "run": "11_06_2025_Run3",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749646093.959,
+        "maneuver_type": "Tack",
+        "duration": 13.996000051498413,
+        "start_time": 1749646087.056,
+        "end_time": 1749646101.052
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749646113.256,
+        "maneuver_type": "Tack",
+        "duration": 13.999000072479248,
+        "start_time": 1749646106.359,
+        "end_time": 1749646120.358
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749646131.957,
+        "maneuver_type": "Tack",
+        "duration": 14.08899998664856,
+        "start_time": 1749646124.957,
+        "end_time": 1749646139.046
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749646155.756,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749646148.756,
+        "end_time": 1749646162.757
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749646198.052,
+        "maneuver_type": "Jibe",
+        "duration": 14.1010000705719,
+        "start_time": 1749646191.059,
+        "end_time": 1749646205.16
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749646237.957,
+        "maneuver_type": "Jibe",
+        "duration": 13.907000064849854,
+        "start_time": 1749646231.052,
+        "end_time": 1749646244.959
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749646272.456,
+        "maneuver_type": "Tack",
+        "duration": 14.102999925613403,
+        "start_time": 1749646265.456,
+        "end_time": 1749646279.559
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749646294.16,
+        "maneuver_type": "Tack",
+        "duration": 13.90499997138977,
+        "start_time": 1749646287.259,
+        "end_time": 1749646301.164
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749646310.857,
+        "maneuver_type": "Tack",
+        "duration": 14.101999998092651,
+        "start_time": 1749646303.857,
+        "end_time": 1749646317.959
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749646336.655,
+        "maneuver_type": "Tack",
+        "duration": 13.895999908447266,
+        "start_time": 1749646329.76,
+        "end_time": 1749646343.656
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749646377.256,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749646370.257,
+        "end_time": 1749646384.257
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749646416.655,
+        "maneuver_type": "Jibe",
+        "duration": 14.101999998092651,
+        "start_time": 1749646409.657,
+        "end_time": 1749646423.759
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Karl",
+    "run": "11_06_2025_Run4",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749646748.959,
+        "maneuver_type": "Tack",
+        "duration": 13.983000040054321,
+        "start_time": 1749646742.072,
+        "end_time": 1749646756.055
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749646766.855,
+        "maneuver_type": "Tack",
+        "duration": 13.900000095367432,
+        "start_time": 1749646759.957,
+        "end_time": 1749646773.857
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749646787.061,
+        "maneuver_type": "Tack",
+        "duration": 14.08400011062622,
+        "start_time": 1749646780.073,
+        "end_time": 1749646794.157
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749646813.957,
+        "maneuver_type": "Tack",
+        "duration": 13.9760000705719,
+        "start_time": 1749646807.076,
+        "end_time": 1749646821.052
+      },
+      {
+        "maneuver_index": 7,
+        "maneuver_time": 1749646923.858,
+        "maneuver_type": "Tack",
+        "duration": 14.003000020980835,
+        "start_time": 1749646916.956,
+        "end_time": 1749646930.959
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749646942.16,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749646935.256,
+        "end_time": 1749646949.256
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749646960.051,
+        "maneuver_type": "Tack",
+        "duration": 14.01799988746643,
+        "start_time": 1749646953.058,
+        "end_time": 1749646967.076
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749646992.655,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749646985.656,
+        "end_time": 1749646999.656
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749647022.056,
+        "maneuver_type": "Jibe",
+        "duration": 14.095999956130981,
+        "start_time": 1749647015.061,
+        "end_time": 1749647029.157
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749647050.157,
+        "maneuver_type": "Jibe",
+        "duration": 14.101999998092651,
+        "start_time": 1749647043.157,
+        "end_time": 1749647057.259
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Karl",
+    "run": "11_06_2025_Run5",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749647394.456,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749647387.556,
+        "end_time": 1749647401.556
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749647412.856,
+        "maneuver_type": "Tack",
+        "duration": 14.101999998092651,
+        "start_time": 1749647405.857,
+        "end_time": 1749647419.959
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749647434.957,
+        "maneuver_type": "Tack",
+        "duration": 14.111999988555908,
+        "start_time": 1749647427.96,
+        "end_time": 1749647442.072
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749647461.76,
+        "maneuver_type": "Tack",
+        "duration": 13.996999979019165,
+        "start_time": 1749647454.861,
+        "end_time": 1749647468.858
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749647494.452,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749647487.453,
+        "end_time": 1749647501.453
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749647529.654,
+        "maneuver_type": "Jibe",
+        "duration": 14.001999855041504,
+        "start_time": 1749647522.654,
+        "end_time": 1749647536.656
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749647561.048,
+        "maneuver_type": "Tack",
+        "duration": 14.009999990463257,
+        "start_time": 1749647554.052,
+        "end_time": 1749647568.062
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749647579.073,
+        "maneuver_type": "Tack",
+        "duration": 13.997999906539917,
+        "start_time": 1749647572.16,
+        "end_time": 1749647586.158
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749647598.655,
+        "maneuver_type": "Tack",
+        "duration": 13.898000001907349,
+        "start_time": 1749647591.759,
+        "end_time": 1749647605.657
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749647627.756,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749647620.757,
+        "end_time": 1749647634.757
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749647668.556,
+        "maneuver_type": "Jibe",
+        "duration": 13.998000144958496,
+        "start_time": 1749647661.656,
+        "end_time": 1749647675.654
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749647705.152,
+        "maneuver_type": "Jibe",
+        "duration": 14.006999969482422,
+        "start_time": 1749647698.157,
+        "end_time": 1749647712.164
+      }
+    ]
+  },
+  {
+    "date": "11_06_2025",
+    "person": "Karl",
+    "run": "11_06_2025_Run6",
+    "intervals": [
+      {
+        "maneuver_index": 1,
+        "maneuver_time": 1749648126.558,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749648119.654,
+        "end_time": 1749648133.655
+      },
+      {
+        "maneuver_index": 2,
+        "maneuver_time": 1749648143.255,
+        "maneuver_type": "Tack",
+        "duration": 14.000999927520752,
+        "start_time": 1749648136.255,
+        "end_time": 1749648150.256
+      },
+      {
+        "maneuver_index": 3,
+        "maneuver_time": 1749648158.956,
+        "maneuver_type": "Tack",
+        "duration": 14.115000009536743,
+        "start_time": 1749648151.957,
+        "end_time": 1749648166.072
+      },
+      {
+        "maneuver_index": 4,
+        "maneuver_time": 1749648184.559,
+        "maneuver_type": "Tack",
+        "duration": 13.90499997138977,
+        "start_time": 1749648177.655,
+        "end_time": 1749648191.56
+      },
+      {
+        "maneuver_index": 5,
+        "maneuver_time": 1749648222.359,
+        "maneuver_type": "Jibe",
+        "duration": 14.0,
+        "start_time": 1749648215.36,
+        "end_time": 1749648229.36
+      },
+      {
+        "maneuver_index": 6,
+        "maneuver_time": 1749648258.358,
+        "maneuver_type": "Jibe",
+        "duration": 14.001000165939331,
+        "start_time": 1749648251.36,
+        "end_time": 1749648265.361
+      },
+      {
+        "maneuver_index": 8,
+        "maneuver_time": 1749648289.857,
+        "maneuver_type": "Tack",
+        "duration": 13.901999950408936,
+        "start_time": 1749648282.957,
+        "end_time": 1749648296.859
+      },
+      {
+        "maneuver_index": 9,
+        "maneuver_time": 1749648308.16,
+        "maneuver_type": "Tack",
+        "duration": 14.092000007629395,
+        "start_time": 1749648301.163,
+        "end_time": 1749648315.255
+      },
+      {
+        "maneuver_index": 10,
+        "maneuver_time": 1749648325.556,
+        "maneuver_type": "Tack",
+        "duration": 14.093999862670898,
+        "start_time": 1749648318.561,
+        "end_time": 1749648332.655
+      },
+      {
+        "maneuver_index": 11,
+        "maneuver_time": 1749648349.063,
+        "maneuver_type": "Tack",
+        "duration": 14.0,
+        "start_time": 1749648342.16,
+        "end_time": 1749648356.16
+      },
+      {
+        "maneuver_index": 12,
+        "maneuver_time": 1749648399.454,
+        "maneuver_type": "Jibe",
+        "duration": 14.101999998092651,
+        "start_time": 1749648392.454,
+        "end_time": 1749648406.556
+      },
+      {
+        "maneuver_index": 13,
+        "maneuver_time": 1749648434.96,
+        "maneuver_type": "Jibe",
+        "duration": 13.98799991607666,
+        "start_time": 1749648428.061,
+        "end_time": 1749648442.049
+      }
+    ]
+  }
+]

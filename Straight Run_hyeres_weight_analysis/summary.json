@@ -1,0 +1,601 @@
+[
+  {
+    "run": "26_11_2025_Run1",
+    "intervals": [
+      {
+        "start_time": 1764159603.546,
+        "end_time": 1764159700.959,
+        "duration": 97.41300010681152,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.224205128205128,
+        "SOG_variation_boat1": 0.7882144970773073,
+        "stability_score": 0.9444265014090917,
+        "avg TWA boat1": 29.781546666666667,
+        "avg TWS boat1": 17.435748717948723
+      },
+      {
+        "start_time": 1764159781.06,
+        "end_time": 1764159842.459,
+        "duration": 61.39900016784668,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 33.631544715447156,
+        "SOG_variation_boat1": 0.8125121222050603,
+        "stability_score": 0.9340506457784534,
+        "avg TWA boat1": -156.95336260162603,
+        "avg TWS boat1": 15.760736585365851
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run2",
+    "intervals": [
+      {
+        "start_time": 1764160118.357,
+        "end_time": 1764160214.061,
+        "duration": 95.7039999961853,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.527557411273488,
+        "SOG_variation_boat1": 0.7183608448322242,
+        "stability_score": 0.9589638389899394,
+        "avg TWA boat1": 29.539585594989564,
+        "avg TWS boat1": 16.286398747390397
+      },
+      {
+        "start_time": 1764160277.164,
+        "end_time": 1764160337.66,
+        "duration": 60.49600005149841,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 33.1539603960396,
+        "SOG_variation_boat1": 0.8464856811230118,
+        "stability_score": 0.9421701457568346,
+        "avg TWA boat1": -161.79356600660066,
+        "avg TWS boat1": 16.620915841584157
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run3",
+    "intervals": [
+      {
+        "start_time": 1764160741.163,
+        "end_time": 1764160790.558,
+        "duration": 49.394999980926514,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 20.857171717171717,
+        "SOG_variation_boat1": 0.8474921809487759,
+        "stability_score": 0.9503022676149909,
+        "avg TWA boat1": 26.11306868686869,
+        "avg TWS boat1": 17.2106202020202
+      },
+      {
+        "start_time": 1764160838.46,
+        "end_time": 1764160887.66,
+        "duration": 49.200000047683716,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 32.173630831643,
+        "SOG_variation_boat1": 1.0592960548073442,
+        "stability_score": 0.9271034126547618,
+        "avg TWA boat1": -162.25661054766732,
+        "avg TWS boat1": 17.589397565922923
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run4",
+    "intervals": [
+      {
+        "start_time": 1764161652.359,
+        "end_time": 1764161710.861,
+        "duration": 58.50200009346008,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.20546075085324,
+        "SOG_variation_boat1": 0.7767811356134399,
+        "stability_score": 0.9398216846531745,
+        "avg TWA boat1": 28.76004266211604,
+        "avg TWS boat1": 17.08214675767918
+      },
+      {
+        "start_time": 1764161750.357,
+        "end_time": 1764161807.061,
+        "duration": 56.7039999961853,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 32.950528169014085,
+        "SOG_variation_boat1": 0.8418085862321297,
+        "stability_score": 0.9297756784422934,
+        "avg TWA boat1": -164.23342605633803,
+        "avg TWS boat1": 18.037274647887322
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run5",
+    "intervals": [
+      {
+        "start_time": 1764162178.658,
+        "end_time": 1764162215.16,
+        "duration": 36.50200009346008,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 19.741256830601092,
+        "SOG_variation_boat1": 1.7437850673906414,
+        "stability_score": 0.8752158601680963,
+        "avg TWA boat1": 53.5004043715847,
+        "avg TWS boat1": 17.36255737704918
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run6",
+    "intervals": [
+      {
+        "start_time": 1764162686.749,
+        "end_time": 1764162778.657,
+        "duration": 91.9079999923706,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 20.692173913043476,
+        "SOG_variation_boat1": 0.9227529258172887,
+        "stability_score": 0.9447039600393693,
+        "avg TWA boat1": 31.941447826086954,
+        "avg TWS boat1": 18.36231195652174
+      },
+      {
+        "start_time": 1764162830.26,
+        "end_time": 1764162891.956,
+        "duration": 61.69600009918213,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 31.846440129449835,
+        "SOG_variation_boat1": 1.0410358015792913,
+        "stability_score": 0.9264047199051053,
+        "avg TWA boat1": -156.88292718446604,
+        "avg TWS boat1": 17.1455
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run7",
+    "intervals": [
+      {
+        "start_time": 1764163728.448,
+        "end_time": 1764163837.66,
+        "duration": 109.21200013160706,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.558737419945107,
+        "SOG_variation_boat1": 0.9213826694047473,
+        "stability_score": 0.9449999507133621,
+        "avg TWA boat1": 26.69054986276304,
+        "avg TWS boat1": 17.27604208600183
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run8",
+    "intervals": [
+      {
+        "start_time": 1764164167.556,
+        "end_time": 1764164271.457,
+        "duration": 103.90100002288818,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.647884615384616,
+        "SOG_variation_boat1": 0.8380711079936773,
+        "stability_score": 0.9515337335552061,
+        "avg TWA boat1": 28.89161923076923,
+        "avg TWS boat1": 14.275794230769232
+      },
+      {
+        "start_time": 1764164316.456,
+        "end_time": 1764164376.656,
+        "duration": 60.19999980926514,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 32.70464344941957,
+        "SOG_variation_boat1": 1.1371023077871192,
+        "stability_score": 0.9293520870453983,
+        "avg TWA boat1": -162.6185538971808,
+        "avg TWS boat1": 15.550502487562188
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run9",
+    "intervals": [
+      {
+        "start_time": 1764164726.86,
+        "end_time": 1764164830.356,
+        "duration": 103.49600005149841,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.06776061776062,
+        "SOG_variation_boat1": 0.8360149344719273,
+        "stability_score": 0.9549376829193196,
+        "avg TWA boat1": 33.42990250965251,
+        "avg TWS boat1": 15.202930501930503
+      },
+      {
+        "start_time": 1764164878.352,
+        "end_time": 1764164938.552,
+        "duration": 60.200000047683716,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 32.02271973466003,
+        "SOG_variation_boat1": 1.3391118316753161,
+        "stability_score": 0.9266337419326197,
+        "avg TWA boat1": -166.1187645107794,
+        "avg TWS boat1": 14.804499170812605
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run10",
+    "intervals": [
+      {
+        "start_time": 1764165211.559,
+        "end_time": 1764165307.558,
+        "duration": 95.99900007247925,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 22.04953173777315,
+        "SOG_variation_boat1": 0.7740062777536635,
+        "stability_score": 0.9509107915127221,
+        "avg TWA boat1": 30.302033298647242,
+        "avg TWS boat1": 12.298448491155048
+      },
+      {
+        "start_time": 1764165374.76,
+        "end_time": 1764165443.956,
+        "duration": 69.19600009918213,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 30.376334776334776,
+        "SOG_variation_boat1": 0.8888616236674544,
+        "stability_score": 0.9450364632380822,
+        "avg TWA boat1": -153.17052380952381,
+        "avg TWS boat1": 15.928705627705629
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run11",
+    "intervals": [
+      {
+        "start_time": 1764166321.66,
+        "end_time": 1764166418.56,
+        "duration": 96.89999985694885,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.475463917525772,
+        "SOG_variation_boat1": 0.680205184575916,
+        "stability_score": 0.9497326585656957,
+        "avg TWA boat1": 34.44166391752578,
+        "avg TWS boat1": 16.154092783505153
+      },
+      {
+        "start_time": 1764166544.96,
+        "end_time": 1764166611.459,
+        "duration": 66.49900007247925,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 31.568468468468467,
+        "SOG_variation_boat1": 1.0385341302074629,
+        "stability_score": 0.9405683126643241,
+        "avg TWA boat1": -162.80782282282283,
+        "avg TWS boat1": 15.908858858858858
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run12",
+    "intervals": [
+      {
+        "start_time": 1764166946.658,
+        "end_time": 1764167042.957,
+        "duration": 96.29900002479553,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.347510373443985,
+        "SOG_variation_boat1": 0.696754100921442,
+        "stability_score": 0.9565626851889065,
+        "avg TWA boat1": 32.66751763485477,
+        "avg TWS boat1": 12.521900414937761
+      },
+      {
+        "start_time": 1764167100.647,
+        "end_time": 1764167165.556,
+        "duration": 64.90899991989136,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 32.00492307692307,
+        "SOG_variation_boat1": 1.3047644387424309,
+        "stability_score": 0.9272202717250542,
+        "avg TWA boat1": -154.9797,
+        "avg TWS boat1": 14.331944615384616
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run13",
+    "intervals": [
+      {
+        "start_time": 1764167510.856,
+        "end_time": 1764167612.859,
+        "duration": 102.00300002098083,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.44387855044074,
+        "SOG_variation_boat1": 0.7761987824915897,
+        "stability_score": 0.947865051523221,
+        "avg TWA boat1": 32.78200391772772,
+        "avg TWS boat1": 14.429964740450538
+      },
+      {
+        "start_time": 1764167659.457,
+        "end_time": 1764167723.755,
+        "duration": 64.29800009727478,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 31.642857142857142,
+        "SOG_variation_boat1": 1.4231026182205644,
+        "stability_score": 0.9093218834663811,
+        "avg TWA boat1": -152.78789751552793,
+        "avg TWS boat1": 13.20351086956522
+      }
+    ]
+  },
+  {
+    "run": "26_11_2025_Run14",
+    "intervals": [
+      {
+        "start_time": 1764168067.956,
+        "end_time": 1764168152.555,
+        "duration": 84.59899997711182,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.691263282172372,
+        "SOG_variation_boat1": 0.5924219515362574,
+        "stability_score": 0.9552379792745309,
+        "avg TWA boat1": 29.57169657615112,
+        "avg TWS boat1": 15.475289256198346
+      },
+      {
+        "start_time": 1764168229.956,
+        "end_time": 1764168287.856,
+        "duration": 57.89999985694885,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 32.93,
+        "SOG_variation_boat1": 1.1293065718985846,
+        "stability_score": 0.9125989035528188,
+        "avg TWA boat1": -158.85751551724138,
+        "avg TWS boat1": 16.08508793103448
+      }
+    ]
+  },
+  {
+    "run": "27_11_2025_Run1",
+    "intervals": [
+      {
+        "start_time": 1764229975.16,
+        "end_time": 1764230085.857,
+        "duration": 110.69700002670288,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 20.985559566787003,
+        "SOG_variation_boat1": 0.7009794110100344,
+        "stability_score": 0.9555100966624436,
+        "avg TWA boat1": 42.518634476534295,
+        "avg TWS boat1": 16.05936732851986
+      },
+      {
+        "start_time": 1764230139.759,
+        "end_time": 1764230197.762,
+        "duration": 58.003000020980835,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 33.09018932874355,
+        "SOG_variation_boat1": 0.7284774854801246,
+        "stability_score": 0.9311754879101608,
+        "avg TWA boat1": -147.22635456110152,
+        "avg TWS boat1": 16.036623063683304
+      }
+    ]
+  },
+  {
+    "run": "27_11_2025_Run2",
+    "intervals": [
+      {
+        "start_time": 1764230499.556,
+        "end_time": 1764230612.96,
+        "duration": 113.40400004386902,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.402114537444934,
+        "SOG_variation_boat1": 0.9707426042988029,
+        "stability_score": 0.9423622470664081,
+        "avg TWA boat1": 54.566562995594715,
+        "avg TWS boat1": 12.586103083700442
+      },
+      {
+        "start_time": 1764230647.558,
+        "end_time": 1764230711.658,
+        "duration": 64.09999990463257,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 32.20841121495327,
+        "SOG_variation_boat1": 1.325835079288345,
+        "stability_score": 0.9167008035401856,
+        "avg TWA boat1": -152.54095015576326,
+        "avg TWS boat1": 11.730084112149532
+      }
+    ]
+  },
+  {
+    "run": "27_11_2025_Run3",
+    "intervals": [
+      {
+        "start_time": 1764230972.657,
+        "end_time": 1764231092.359,
+        "duration": 119.70199990272522,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.58355592654424,
+        "SOG_variation_boat1": 0.9723435640127209,
+        "stability_score": 0.9441582656810402,
+        "avg TWA boat1": 42.160438230383974,
+        "avg TWS boat1": 12.611205342237062
+      },
+      {
+        "start_time": 1764231142.956,
+        "end_time": 1764231206.857,
+        "duration": 63.901000022888184,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 31.74390625,
+        "SOG_variation_boat1": 0.7877149798472436,
+        "stability_score": 0.941138357013068,
+        "avg TWA boat1": -151.35115624999997,
+        "avg TWS boat1": 13.0307046875
+      }
+    ]
+  },
+  {
+    "run": "27_11_2025_Run4",
+    "intervals": [
+      {
+        "start_time": 1764232111.257,
+        "end_time": 1764232220.556,
+        "duration": 109.29900002479553,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 20.994698354661793,
+        "SOG_variation_boat1": 0.7089863971231155,
+        "stability_score": 0.9553041241091281,
+        "avg TWA boat1": 38.28743053016453,
+        "avg TWS boat1": 16.18892595978062
+      },
+      {
+        "start_time": 1764232274.26,
+        "end_time": 1764232342.556,
+        "duration": 68.2960000038147,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 31.6562865497076,
+        "SOG_variation_boat1": 0.7284462373417149,
+        "stability_score": 0.9402255180633478,
+        "avg TWA boat1": -154.00832894736843,
+        "avg TWS boat1": 14.950915204678362
+      }
+    ]
+  },
+  {
+    "run": "27_11_2025_Run5",
+    "intervals": [
+      {
+        "start_time": 1764232644.856,
+        "end_time": 1764232745.456,
+        "duration": 100.60000014305115,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.252035749751737,
+        "SOG_variation_boat1": 0.6288565522700792,
+        "stability_score": 0.9547330933333881,
+        "avg TWA boat1": 37.58421350546177,
+        "avg TWS boat1": 15.707803376365442
+      },
+      {
+        "start_time": 1764232816.656,
+        "end_time": 1764232884.256,
+        "duration": 67.60000014305115,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 31.805465288035453,
+        "SOG_variation_boat1": 0.8488852579211059,
+        "stability_score": 0.9371149584029704,
+        "avg TWA boat1": -157.36145494830131,
+        "avg TWS boat1": 14.26911669128508
+      }
+    ]
+  },
+  {
+    "run": "27_11_2025_Run6",
+    "intervals": [
+      {
+        "start_time": 1764233250.046,
+        "end_time": 1764233363.456,
+        "duration": 113.41000008583069,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 21.01101321585903,
+        "SOG_variation_boat1": 0.717488967647893,
+        "stability_score": 0.9456343070757758,
+        "avg TWA boat1": 35.94156828193832,
+        "avg TWS boat1": 15.211152422907489
+      },
+      {
+        "start_time": 1764233441.96,
+        "end_time": 1764233499.247,
+        "duration": 57.28699994087219,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 31.96951219512195,
+        "SOG_variation_boat1": 0.9524071307917412,
+        "stability_score": 0.9425093385260417,
+        "avg TWA boat1": -156.22110278745646,
+        "avg TWS boat1": 14.54410975609756
+      }
+    ]
+  },
+  {
+    "run": "27_11_2025_Run7",
+    "intervals": [
+      {
+        "start_time": 1764234183.558,
+        "end_time": 1764234330.957,
+        "duration": 147.3989999294281,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 19.63708474576271,
+        "SOG_variation_boat1": 2.4299607548866993,
+        "stability_score": 0.9294543477297362,
+        "avg TWA boat1": 36.86026915254237,
+        "avg TWS boat1": 13.401052203389833
+      },
+      {
+        "start_time": 1764234412.446,
+        "end_time": 1764234479.16,
+        "duration": 66.71399998664856,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 32.00943113772455,
+        "SOG_variation_boat1": 0.9705642061756389,
+        "stability_score": 0.9416606819071143,
+        "avg TWA boat1": -153.36206137724548,
+        "avg TWS boat1": 13.674541916167666
+      }
+    ]
+  },
+  {
+    "run": "27_11_2025_Run8",
+    "intervals": [
+      {
+        "start_time": 1764234785.556,
+        "end_time": 1764234883.457,
+        "duration": 97.90100002288818,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 20.704183673469387,
+        "SOG_variation_boat1": 0.5840691038029108,
+        "stability_score": 0.9578286225462073,
+        "avg TWA boat1": 38.1366418367347,
+        "avg TWS boat1": 13.676486734693876
+      },
+      {
+        "start_time": 1764235012.152,
+        "end_time": 1764235081.157,
+        "duration": 69.00500011444092,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 30.73053545586107,
+        "SOG_variation_boat1": 1.1933181736637266,
+        "stability_score": 0.9393085139349772,
+        "avg TWA boat1": -163.12715774240232,
+        "avg TWS boat1": 12.169719247467437
+      }
+    ]
+  },
+  {
+    "run": "27_11_2025_Run9",
+    "intervals": [
+      {
+        "start_time": 1764235473.756,
+        "end_time": 1764235535.456,
+        "duration": 61.700000047683716,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 20.811812297734626,
+        "SOG_variation_boat1": 0.939881514504457,
+        "stability_score": 0.9468252910536237,
+        "avg TWA boat1": 29.88165533980582,
+        "avg TWS boat1": 14.240741100323625
+      },
+      {
+        "start_time": 1764235618.855,
+        "end_time": 1764235685.048,
+        "duration": 66.1930000782013,
+        "boat1_name": "Karl Maeder",
+        "avg_SOG_boat1": 32.06003016591252,
+        "SOG_variation_boat1": 1.0456721333998558,
+        "stability_score": 0.9441518684567166,
+        "avg TWA boat1": -159.78182352941178,
+        "avg TWS boat1": 14.21929713423831
+      }
+    ]
+  }
+]

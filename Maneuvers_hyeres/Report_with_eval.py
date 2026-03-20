@@ -44,7 +44,7 @@ def plot_top5_maneuvers_comparison(top_maneuvers):
         # Trajectoire
         ax.plot(d.Lon, d.Lat, color=color, lw=2, label=f"Rank {i+1}")
         
-        # Marqueurs début (boule) et fin (triangle/flèche)
+        # Marqueurs début (boule)
         ax.scatter(d.Lon.iloc[0], d.Lat.iloc[0], color='black', marker='o', s=20, label='Start')
     # Direction du vent (TWD moyen)
         twd_rad = np.deg2rad(d.TWD.mean())

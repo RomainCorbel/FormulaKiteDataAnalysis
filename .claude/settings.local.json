@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\romai\\\\Desktop\\\\FormulaKite\\\\FormulaKiteDataAnalysis\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(Get-ChildItem -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\romai\\\\Desktop\\\\FormulaKite\\\\FormulaKiteDataAnalysis\" -Recurse -Force | Select-Object FullName | ForEach-Object { $_.FullName } | Sort-Object)",
+      "Bash(xargs wc -l)",
+      "Bash(cd \"/c/Users/romai/Desktop/FormulaKite/FormulaKiteDataAnalysis\" && ls -la \"Straight Run_hyeres_weight_analysis\" | head -30)",
+      "Read(//c/c/Users/romai/Desktop/FormulaKite/FormulaKiteDataAnalysis/**)",
+      "Bash(cd \"/c/Users/romai/Desktop/FormulaKite/FormulaKiteDataAnalysis\" && ls \"Starts_hyeres\")"
+    ]
+  }
+}

@@ -1,62 +1,66 @@
-# Straight runs analysis
+# Straight Runs — Hyères
 
-## Description
-The workflow includes identifying and preparing time intervals of interest (straight runs upwind and downwind), enriching them with additional data, merging data from multiple sources (including Senseboard logs and interviews), running statistical analyses, and generating reports.  
+Analysis of straight-line sailing intervals (upwind and downwind) from the Hyères testing campaign (November 25, 2025).
 
-The execution pipeline is automated via **`runner.ipynb`**, which runs all notebooks in a predefined order.
-
----
-
-## Project Structure
-
-### Main Pipeline
-The notebooks are executed in the following order via `runner.ipynb`:
-
-1. **`MainCOG.ipynb`**  
-   - Identifies the study intervals ("straight lines") to analyze.  
-   - Produces `summary.json` containing, for each run:  
-     - Upwind and downwind intervals  
-     - Start and end time  
-     - Additional information.  
-
-2. **`AddInfoToSummary.ipynb`**  
-   - Creates `summary_enriched.json`.  
-   - Adds additional information such as:  
-     - `mast_brand`  
-     - `master_leeward`  
-     - `total_weight`  
-   - Data is retrieved from the interview files.  
-
-3. **`merge_all.ipynb`**  
-   - Produces `all_data.csv`.  
-   - Merges the study intervals with enriched summary information.  
-
-4. **`addsenseboarddata.ipynb`**  
-   - Produces `all_data_enriched.csv`.  
-   - Adds Senseboard log data to the dataset.  
-
-5. **`analysis.ipynb`**  
-   - First statistical analysis of the dataset, excluding Senseboard loadcell data.  
-
-6. **`analysis_senseboard.ipynb`**  
-   - Statistical analysis focusing only on Senseboard data, using loadcell information.  
-
-7. **`MainReport.ipynb`**  
-   - Generates a comprehensive report.  
-   - Compares KPI metrics for each straight run between riders.  
-
-8. **`Senseboard_Report.ipynb`**  
-   - Generates visualizations from Senseboard data.  
-
-9. **`weight_ttest.ipynb`**  
-   - Performs statistical t-tests on the effect of rider weight on performance.  
-
-10. **`mast_ttest.ipynb`**  
-    - Performs statistical t-tests on the effect of the foil (Chubanga vs Levi) on performance.  
+Riders: **Gian Stragiotti** and **Max Maeder**.
 
 ---
 
-### Other Files
-- `analysis.py`, `cog_analysis.py`, `report_fct.py`: Python utility scripts.  
-- `summary.json`, `summary_enriched.json`: Intermediate files containing run information.  
-- `all_data.csv`, `all_data_enriched.csv`: Consolidated datasets used for analysis.  
+## Pipeline
+
+Notebooks are run in order via **`runner.ipynb`**.
+
+1. **`MainCOG.ipynb`**
+   - Detects stable upwind and downwind intervals from raw telemetry using COG (Course Over Ground) change detection.
+   - Output: `summary.json` — one entry per interval with start/end timestamps, average SOG, average TWA, stability score.
+
+2. **`AddInfoToSummary.ipynb`**
+   - Reads interview files and attaches rider/equipment metadata to each interval.
+   - Adds: `total_weight`, `mast_brand` (0=Levi, 1=Chubanga), `master_leeward` role.
+   - Output: `summary_enriched.json`.
+
+3. **`merge_all.ipynb`**
+   - Clips raw CSV files to each interval window.
+   - Computes cumulative directional gains (forward, lateral, VMG).
+   - Re-sorts line tensions: `Line_C2` = max, `Line_L2` = mid, `Line_R2` = min.
+   - Output: `all_data.csv`.
+
+4. **`analysis.ipynb`**
+   - Statistical analysis of navigation and line data.
+   - Covers: correlation matrix, ANOVA, OLS regression, t-tests (Gian vs Max, master vs slave).
+
+5. **`MainReport2.ipynb`**
+   - Comparative report across all runs.
+   - Per-run KPIs: SOG, VMG, heel, line tensions, directional gains, winner determination.
+
+6. **`LeviVSChub.ipynb`**
+   - Paired comparison of mast types (Levi vs Chubanga) across matched intervals.
+   - Uses OLS regression controlling for rider and role to isolate the mast effect.
+
+7. **`mast_ttest.ipynb`**
+   - T-tests on the effect of mast type on SOG.
+
+---
+
+## Python Utility Scripts
+
+- **`cog_analysis.py`** — interval detection, COG change detection, trajectory plotting.
+- **`report_fct2.py`** — run loading, statistics computation, directional gain, comparison plots.
+- **`analysis.py`** — correlation, ANOVA, OLS regression, t-test wrappers.
+- **`leviVSchub.py`** — paired interval builder, mast-type grouping, OLS and ANOVA for mast effect.
+
+---
+
+## Intermediate Files
+
+- `summary.json` — detected intervals (output of step 1)
+- `summary_enriched.json` — intervals with equipment metadata (output of step 2)
+- `all_data.csv` — merged row-level dataset (output of step 3)
+
+---
+
+## Differences from Port Camargue
+
+- No SenseBoard load cell data available for this campaign — `addsenseboarddata.ipynb` is not present.
+- Includes `LeviVSChub.ipynb` for dedicated mast comparison analysis.
+- Uses `report_fct2.py` instead of `report_fct.py` (extended version with additional plot types).

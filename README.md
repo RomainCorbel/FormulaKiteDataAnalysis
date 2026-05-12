@@ -1,99 +1,135 @@
-# Formula Kite Data Analysis  
+# Formula Kite Data Analysis
 
-This repository contains the analyses from the **Formula Kite testing campaign** held in **Port Camargue (France), June 6–11, 2025**. Note that the datasets are not stored directly in this GitHub repository because of their large file sizes, which would make the repository heavy and inefficient to clone or update. All raw and pre-processed data are hosted externally on Marco’s drive and the pre-processed folder: Data_Sailnjord must be copied directly into the FormulaKiteDataAnalysis/ folder to run the analysis scripts and notebooks.
+This repository contains the analysis pipelines for the Formula Kite testing campaigns conducted at two locations:
 
-The project focuses on two main aspects of performance:  
-- Straight runs (upwind & downwind speed testing)  
-- Maneuvers (tacks & gybes)  
+- **Port Camargue, France** — June 6–11, 2025
+- **Hyères, France** — November 2025
+
+Three types of sessions are covered: straight runs (upwind and downwind speed testing), maneuvers (jibes and tacks), and race starts (Hyères only).
+
 ---
 
-## Repository Structure  
+## Dataset
 
-For both Maneuvers and Straight lines, the data structure always includes:  
-- **CSV files** (`Gian.csv`, `Karl.csv`, `SenseBoard.csv`) containing Vakaros measurements for each run  
-- **SenseBoard logs** (`SenseBoard_log_modified_… .xlsx`) with data of the senseboard (especially load cells) covering the entire session (by day and not by run) 
-- **Interview files** (`Interview … .xlsx`) providing complementary information such as total weight, equipment setup, and other contextual details  
+The raw and pre-processed data are **not stored in this repository** due to file size constraints.
+
+- Download the dataset: **[Dataset — link to be added]**
+- Once downloaded, place the `Data_Sailnjord/` folder directly inside `FormulaKiteDataAnalysis/` so that paths resolve correctly.
+
+The expected location is:
+```
+FormulaKiteDataAnalysis/
+└── Data_Sailnjord/        <-- place it here
+```
+
+### Data structure inside `Data_Sailnjord/`
+
+Each run folder contains:
+- **Rider CSV files** (`Gian Stragiotti.csv`, `Karl Maeder.csv`, etc.) — Vakaros telemetry: position, speed, wind, heel, line tensions
+- **SenseBoard CSV** (`SenseBoard.csv`) — instrumented board telemetry
+- **SenseBoard log** (`SenseBoard_log_modified_YYMMDD.xlsx`) — load cell data covering the full session day
+- **Interview files** (`Interview [Name] YYMMDD.xlsx`) — equipment setup, rider weight, mast brand, role assignment
+
+```
+Data_Sailnjord/
+├── Port Camargue June 2025/
+│   ├── Straight_lines/
+│   │   ├── 06_06_2025/
+│   │   │   ├── Interview and equipment/
+│   │   │   ├── senseboard_log/
+│   │   │   └── 06_06_2025_Run{1..8}/   (Gian.csv | Karl.csv | SenseBoard.csv)
+│   │   ├── 07_06_2025/                  (10 runs)
+│   │   ├── 09_06_2025/                  (11 runs, Karl + SenseBoard only)
+│   │   └── 10_06_2025/                  (10 runs)
+│   └── Maneuvers/
+│       ├── 08_06_2025/
+│       │   ├── Interview and equipment/
+│       │   ├── senseboard_log/
+│       │   └── 08_06_2025_Run{1..6}/
+│       └── 11_06_2025/                  (5 runs)
+│
+└── Hyères November 2025/
+    ├── Straight_lines/
+    │   └── 25_11_2025/                  (7 runs — Gian + Max Maeder)
+    ├── Maneuvers/
+    │   └── 30_11_2025/                  (3 runs)
+    └── Starts/
+        └── 30_11_2025/                  (10 races)
+```
+
+---
+
+## Repository Structure
 
 ```
 FormulaKiteDataAnalysis/
-├── README.md
+├── Data_Sailnjord/                          # dataset (not in git — see above)
 │
-├── Data_Sailnjord/                         # processed datasets ready for Python analysis
-│   └── Port Camargue June 2025/
-│       │
-│       ├── Maneuvers/
-│       │   ├── 08_06_2025/
-│       │   │   ├── Gian/
-│       │   │   │   └── 08_06_2025_Run{1..5}/ (SenseBoard.csv)
-│       │   │   ├── Karl/
-│       │   │   │   └── 08_06_2025_Run{1..6}/ (Karl Maeder.csv)
-│       │   │   ├── senseboard_log/
-│       │   │   │   └── SenseBoard_log_modified_250608.xlsx
-│       │   │   └── Interview and equipment/
-│       │   │       ├── Interview Karl 250608.xlsx
-│       │   │       └── Interview SenseBoard 250608.xlsx
-│       │   │
-│       │   └── 11_06_2025/
-│       │       ├── Gian/
-│       │       │   └── 11_06_2025_Run{1..5}/ (Gian Stragiotti.csv | SenseBoard.csv)
-│       │       ├── Karl/
-│       │       │   └── 11_06_2025_Run{1..6}/ (Karl Maeder.csv)
-│       │       ├── senseboard_log/
-│       │       │   └── …250611….xlsx
-│       │       └── Interview and equipment/
-│       │           └── …250611….xlsx
-│       │
-│       └── Straight_lines/
-│           ├── 06_06_2025/
-│           │   ├── Interview and equipment/
-│           │   ├── senseboard_log/
-│           │   └── 06_06_2025_Run{1..8}/ (Gian.csv | Karl.csv | SenseBoard.csv)
-│           │
-│           ├── 07_06_2025/
-│           │   ├── Interview and equipment/
-│           │   ├── senseboard_log/
-│           │   └── 07_06_2025_Run{1..10}/ (Gian.csv | Karl.csv | SenseBoard.csv)
-│           │
-│           ├── 09_06_2025/
-│           │   ├── Interview and equipment/
-│           │   ├── senseboard_log/
-│           │   └── 09_06_2025_Run{1..11}/ (Karl.csv | SenseBoard.csv)
-│           │
-│           └── 10_06_2025/
-│               ├── Interview and equipment/
-│               ├── senseboard_log/
-│               └── 10_06_2025_Run{1..10}/ (Gian.csv | Karl.csv | SenseBoard.csv)
+├── Straight Run_port_camargue/              # straight run analysis, Port Camargue
+├── Straight Run_hyeres/                     # straight run analysis, Hyères
+├── Straight Run_hyeres_weight_analysis/     # weight-effect specialization, Hyères
 │
-├── Maneuvers/                              # Python analysis workspace (maneuvers)
-│   ├── analysis notebooks & scripts
-│   │   ├── addsenseboarddata.ipynb
-│   │   ├── MainCOG.ipynb
-│   │   ├── Report_*_*.ipynb
-│   │   ├── cog_analysis.py
-│   │   ├── report_fct.py
-│   │   └── Report_with_eval.py
-│   ├── aggregated data/
-│   │   ├── all_data*.csv
-│   │   └── summary*.json
-│   ├── old/                               # legacy notebooks
-│   └── __pycache__/
+├── Maneuvers_port_camargue/                 # jibe and tack analysis, Port Camargue
+├── Maneuvers_hyeres/                        # jibe and tack analysis, Hyères
 │
-├── Straight Run/                          # Python analysis workspace (straight runs)
-│   ├── analysis notebooks
-│   │   ├── MainReport.ipynb
-│   │   ├── analysis*.ipynb
-│   │   └── *ttest.ipynb
-│   ├── scripts
-│   │   ├── analysis.py
-│   │   ├── cog_analysis.py
-│   │   ├── report_fct.py
-│   │   └── merge_all.ipynb
-│   ├── aggregated data/
-│   │   ├── all_data*.csv
-│   │   └── summary*.json
-│   ├── archives/               
-│   └── __pycache__/
+├── Starts_hyeres/                           # race start analysis, Hyères
 │
-│
-└── __pycache__/
+├── requirements.txt                         # pip dependencies
+└── environment.yml                          # conda environment (name: sail2, Python 3.10)
 ```
+
+Each analysis folder has its own `README.md` describing its pipeline in detail.
+
+---
+
+## Folder Descriptions
+
+### `Straight Run_port_camargue/` and `Straight Run_hyeres/`
+
+Straight run analysis for each location. The pipeline detects stable upwind/downwind intervals from the raw telemetry, enriches them with rider and equipment metadata from interview files, merges everything into a single dataset, and runs statistical analyses and reports.
+
+Key outputs: rider speed comparisons (SOG, VMG), line tension analysis, mast type effect (Levi vs Chubanga), directional gain between riders.
+
+See [Straight Run_port_camargue/README.md](Straight%20Run_port_camargue/README.md) and [Straight Run_hyeres/README.md](Straight%20Run_hyeres/README.md).
+
+---
+
+### `Straight Run_hyeres_weight_analysis/`
+
+A variant of the Hyères straight run pipeline focused specifically on the effect of rider weight on performance. Multiple notebooks test different weight subsets (e.g., below 120 kg, between 105–120 kg) and compare SOG distributions across those groups.
+
+See [Straight Run_hyeres_weight_analysis/README.md](Straight%20Run_hyeres_weight_analysis/README.md).
+
+---
+
+### `Maneuvers_port_camargue/` and `Maneuvers_hyeres/`
+
+Maneuver analysis (jibes and tacks) for each location. The pipeline detects jibe and tack windows from COG and SOG signals, merges the data, and generates rider-specific reports with KPIs (speed loss, recovery time, heel dynamics, line loading).
+
+At Port Camargue both Gian and Karl are analyzed. At Hyères only Gian's maneuvers are covered (limited data).
+
+See [Maneuvers_port_camargue/README.md](Maneuvers_port_camargue/README.md) and [Maneuvers_hyeres/README.md](Maneuvers_hyeres/README.md).
+
+---
+
+### `Starts_hyeres/`
+
+Race start analysis from the Hyères campaign (10 races). Computes acceleration metrics, polar ratio (actual vs reference speed), time to reach peak speed, and plots trajectories relative to wind direction.
+
+See [Starts_hyeres/README.md](Starts_hyeres/README.md).
+
+---
+
+## Setup
+
+```bash
+conda env create -f environment.yml
+conda activate sail2
+```
+
+Or with pip:
+```bash
+pip install -r requirements.txt
+```
+
+Then place the `Data_Sailnjord/` folder in the repository root and run the notebooks inside the relevant analysis folder via `runner.ipynb`.

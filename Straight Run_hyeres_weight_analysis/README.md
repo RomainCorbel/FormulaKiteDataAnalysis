@@ -1,62 +1,55 @@
-# Straight runs analysis
+# Straight Runs — Hyères Weight Analysis
 
-## Description
-The workflow includes identifying and preparing time intervals of interest (straight runs upwind and downwind), enriching them with additional data, merging data from multiple sources (including Senseboard logs and interviews), running statistical analyses, and generating reports.  
+This folder is a specialization of the Hyères straight run pipeline focused on the effect of **rider total weight** on performance (SOG).
 
-The execution pipeline is automated via **`runner.ipynb`**, which runs all notebooks in a predefined order.
-
----
-
-## Project Structure
-
-### Main Pipeline
-The notebooks are executed in the following order via `runner.ipynb`:
-
-1. **`MainCOG.ipynb`**  
-   - Identifies the study intervals ("straight lines") to analyze.  
-   - Produces `summary.json` containing, for each run:  
-     - Upwind and downwind intervals  
-     - Start and end time  
-     - Additional information.  
-
-2. **`AddInfoToSummary.ipynb`**  
-   - Creates `summary_enriched.json`.  
-   - Adds additional information such as:  
-     - `mast_brand`  
-     - `master_leeward`  
-     - `total_weight`  
-   - Data is retrieved from the interview files.  
-
-3. **`merge_all.ipynb`**  
-   - Produces `all_data.csv`.  
-   - Merges the study intervals with enriched summary information.  
-
-4. **`addsenseboarddata.ipynb`**  
-   - Produces `all_data_enriched.csv`.  
-   - Adds Senseboard log data to the dataset.  
-
-5. **`analysis.ipynb`**  
-   - First statistical analysis of the dataset, excluding Senseboard loadcell data.  
-
-6. **`analysis_senseboard.ipynb`**  
-   - Statistical analysis focusing only on Senseboard data, using loadcell information.  
-
-7. **`MainReport.ipynb`**  
-   - Generates a comprehensive report.  
-   - Compares KPI metrics for each straight run between riders.  
-
-8. **`Senseboard_Report.ipynb`**  
-   - Generates visualizations from Senseboard data.  
-
-9. **`weight_ttest.ipynb`**  
-   - Performs statistical t-tests on the effect of rider weight on performance.  
-
-10. **`mast_ttest.ipynb`**  
-    - Performs statistical t-tests on the effect of the foil (Chubanga vs Levi) on performance.  
+It reuses the same interval detection and data merging steps, then applies multiple weight-based filters to compare performance across different weight subsets.
 
 ---
 
-### Other Files
-- `analysis.py`, `cog_analysis.py`, `report_fct.py`: Python utility scripts.  
-- `summary.json`, `summary_enriched.json`: Intermediate files containing run information.  
-- `all_data.csv`, `all_data_enriched.csv`: Consolidated datasets used for analysis.  
+## Pipeline
+
+Notebooks are run in order via **`runner.ipynb`**.
+
+1. **`MainCOG.ipynb`**
+   - Detects stable upwind/downwind intervals from raw telemetry.
+   - Output: `summary.json`.
+
+2. **`AddInfoToSummary.ipynb`**
+   - Enriches intervals with rider/equipment metadata (total weight, mast brand, role).
+   - Output: `summary_enriched.json`.
+
+3. **`merge_all.ipynb`**
+   - Clips data to intervals, computes directional gains, re-sorts line tensions.
+   - Output: `all_data.csv`.
+
+4. **`analysis.ipynb`**
+   - General statistical analysis of the dataset.
+
+### Weight Impact Notebooks
+
+Each of the following notebooks applies a different weight filter and tests whether SOG differs significantly between groups:
+
+- **`weight_impact.ipynb`** — baseline analysis across all weight combinations
+- **`weight_impact_2.ipynb`** — variant with alternative grouping
+- **`weight_impact_below120.ipynb`** — subset restricted to riders below 120 kg
+- **`weight_impact_below120_2.ipynb`** — variant of the above
+- **`weight_impact_below120_above105.ipynb`** — subset between 105 and 120 kg
+- **`weight_impact_below120_above105_2.ipynb`** — variant of the above
+- **`weight_impact_with_instantaneous.ipynb`** — includes instantaneous SOG in the analysis
+
+---
+
+## Python Utility Scripts
+
+- **`cog_analysis.py`** — interval detection and trajectory plotting.
+- **`report_fct2.py`** — run loading, statistics, directional gain, comparison plots.
+- **`analysis.py`** — correlation, ANOVA, OLS regression, t-test wrappers.
+- **`weight_impact.py`** — core functions for paired interval building, weight-group aggregation, OLS and ANOVA on weight effect.
+
+---
+
+## Intermediate Files
+
+- `summary.json` — detected intervals
+- `summary_enriched.json` — intervals with metadata
+- `all_data.csv` — merged row-level dataset

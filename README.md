@@ -24,7 +24,7 @@ FormulaKiteDataAnalysis/
 
 ### Data structure inside `Data_Sailnjord/`
 
-The data was originally recorded by Sailnjord and reformatted to the following structure (standardized file names and folder hierarchy).
+The data was originally taken from Sailnjord and reformatted to the following structure (standardized file names and folder hierarchy).
 
 The structure differs slightly between the two campaigns:
 

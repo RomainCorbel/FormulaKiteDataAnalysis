@@ -25,18 +25,20 @@ Notebooks are run in order via **`runner.ipynb`**.
    - Re-sorts line tensions: `Line_C2` = max, `Line_L2` = mid, `Line_R2` = min.
    - Output: `all_data.csv`.
 
-4. **`MainReport.ipynb`**
+4. **`analysis.ipynb`**
+   - Statistical analysis of navigation and line data.
+   - Covers: correlation matrix, ANOVA, OLS regression, t-tests (Gian vs Max, master vs slave).
+
+5. **`MainReport.ipynb`**
    - Comparative report across all runs.
    - Per-run KPIs: SOG, VMG, heel, line tensions, directional gains, winner determination.
 
-5. **`LeviVSChub.ipynb`**
+6. **`LeviVSChub.ipynb`**
    - Paired comparison of mast types (Levi vs Chubanga) across matched intervals.
    - Uses OLS regression controlling for rider and role to isolate the mast effect.
 
-### Supplementary Notebooks (not in runner)
-
-- **`analysis.ipynb`** — statistical analysis of navigation and line data: correlation matrix, ANOVA, OLS regression, t-tests (Gian vs Max, master vs slave).
-- **`mast_ttest.ipynb`** — t-tests on the effect of mast type on SOG.
+7. **`mast_ttest.ipynb`**
+   - T-tests on the effect of mast type on SOG.
 
 ---
 

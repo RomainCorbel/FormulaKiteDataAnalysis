@@ -20,21 +20,19 @@ Notebooks are run in order via **`runner.ipynb`**.
    - Clips raw CSV files to each maneuver window.
    - Output: `all_data.csv`.
 
-3. **`addsenseboarddata.ipynb`**
-   - Time-aligns SenseBoard load cell logs to the merged dataset.
-   - Output: `all_data_enriched.csv`.
-
-4. **`Report_Gian_Jibe.ipynb`**
+3. **`Report_Gian_Jibe.ipynb`**
    - KPIs and visualizations for Gian's jibes: SOG loss, recovery time, heel dynamics, line loading.
 
-5. **`Report_Gian_Tack.ipynb`**
+4. **`Report_Gian_Tack.ipynb`**
    - Same report for Gian's tacks.
 
-6. **`Report_Karl_Jibe.ipynb`**
+5. **`Report_Karl_Jibe.ipynb`**
    - Same report for Karl's jibes.
 
-7. **`Report_Karl_Tack.ipynb`**
+6. **`Report_Karl_Tack.ipynb`**
    - Same report for Karl's tacks.
+
+**`addsenseboarddata.ipynb`** is present but not yet used — SenseBoard load cell data has not been integrated into the maneuver analysis.
 
 ---
 

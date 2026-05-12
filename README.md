@@ -29,7 +29,7 @@ The data was originally taken from Sailnjord and reformatted to the following st
 The structure differs slightly between the two campaigns:
 
 **Port Camargue**  :  each day folder contains:
-- One folder per run, each with the rider CSV files (`Gian Stragiotti.csv`, `Karl Maeder.csv`, `SenseBoard.csv`)  :  Vakaros telemetry: position, speed, wind, heel, line tensions
+- One folder per run, each with the rider CSV files (`Gian Stragiotti.csv`, `Karl Maeder.csv`, `SenseBoard.csv`)  :  Vakaros telemetry
 - An `Interview and equipment/` folder  :  one Excel file per rider with equipment setup, rider weight, mast brand, and role assignment
 - A `senseboard_log/` folder  :  one Excel file covering the full day's SenseBoard load cell data (not split by run)
 
@@ -81,12 +81,12 @@ FormulaKiteDataAnalysis/
 │
 ├── ALLrunner.ipynb                          # runs all folder runners sequentially
 ├── requirements.txt                         # pip dependencies
-└── environment.yml                          # conda environment (name: sail2, Python 3.10)
+└── environment.yml                          # conda environment (name: SwissSailing, Python 3.11)
 ```
 
 Each analysis folder has its own `README.md` describing its pipeline in detail.
 
-Each folder is intentionally self-contained. Hyères and Port Camargue differ in available data (sensors, riders, session types) and in the specific analyses run, so sharing code across locations would have added complexity  :  conditional logic, location-specific parameters  :  with no real benefit. As a result, some utility functions are duplicated across folders with location-specific modifications, which was a deliberate trade-off in favour of readability and independence over DRY abstraction.
+Each folder is intentionally self-contained. Hyères and Port Camargue differ in available data (sensors, riders, session types, frequency of data acquistion) and in the specific analyses run, so sharing code across locations would have added complexity  :  conditional logic, location-specific parameters  :  with no real benefit. As a result, some utility functions are duplicated across folders with location-specific modifications, which was a deliberate trade-off in favour of readability and independence over DRY abstraction.
 
 ---
 
@@ -132,7 +132,7 @@ See [Starts_hyeres/README.md](Starts_hyeres/README.md).
 
 ```bash
 conda env create -f environment.yml
-conda activate sail2
+conda activate SwissSailing
 ```
 
 Or with pip:

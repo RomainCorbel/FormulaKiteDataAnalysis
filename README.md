@@ -2,8 +2,8 @@
 
 This repository contains the analysis pipelines for the Formula Kite testing campaigns conducted at two locations:
 
-- **Port Camargue, France** — June 6–11, 2025
-- **Hyères, France** — November 2025
+- **Port Camargue, France**  :  June 6–11, 2025
+- **Hyères, France**  :  November 2025
 
 Three types of sessions are covered: straight runs (upwind and downwind speed testing), maneuvers (jibes and tacks), and race starts (Hyères only).
 
@@ -13,13 +13,13 @@ Three types of sessions are covered: straight runs (upwind and downwind speed te
 
 The raw and pre-processed data are **not stored in this repository** due to file size constraints.
 
-- Download the dataset: **[Dataset — link to be added]**
+- Download the dataset: **[Dataset  :  link to be added]**
 - Once downloaded, place the `Data_Sailnjord/` folder directly inside `FormulaKiteDataAnalysis/` so that paths resolve correctly.
 
 The expected location is:
 ```
 FormulaKiteDataAnalysis/
-└── Data_Sailnjord/        <-- place it here
+└── Data_Sailnjord/
 ```
 
 ### Data structure inside `Data_Sailnjord/`
@@ -28,12 +28,12 @@ The data was originally taken from Sailnjord and reformatted to the following st
 
 The structure differs slightly between the two campaigns:
 
-**Port Camargue** — each day folder contains:
-- One folder per run, each with the rider CSV files (`Gian Stragiotti.csv`, `Karl Maeder.csv`, `SenseBoard.csv`) — Vakaros telemetry: position, speed, wind, heel, line tensions
-- An `Interview and equipment/` folder — one Excel file per rider with equipment setup, rider weight, mast brand, and role assignment
-- A `senseboard_log/` folder — one Excel file covering the full day's SenseBoard load cell data (not split by run)
+**Port Camargue**  :  each day folder contains:
+- One folder per run, each with the rider CSV files (`Gian Stragiotti.csv`, `Karl Maeder.csv`, `SenseBoard.csv`)  :  Vakaros telemetry: position, speed, wind, heel, line tensions
+- An `Interview and equipment/` folder  :  one Excel file per rider with equipment setup, rider weight, mast brand, and role assignment
+- A `senseboard_log/` folder  :  one Excel file covering the full day's SenseBoard load cell data (not split by run)
 
-**Hyères** — same structure, but without `senseboard_log/`: the SenseBoard load cell data is already embedded directly in the rider CSV files.
+**Hyères**  :  same structure, but without `senseboard_log/`: the SenseBoard load cell data is already embedded directly in the rider CSV files.
 
 ```
 Data_Sailnjord/
@@ -44,7 +44,7 @@ Data_Sailnjord/
 │   │   │   ├── senseboard_log/              (SenseBoard_log_modified_250606.xlsx)
 │   │   │   └── 06_06_2025_Run{1..8}/        (Gian Stragiotti.csv | Karl Maeder.csv | SenseBoard.csv)
 │   │   ├── 07_06_2025/                      (10 runs)
-│   │   ├── 09_06_2025/                      (11 runs — Karl + SenseBoard only)
+│   │   ├── 09_06_2025/                      (11 runs  :  Karl + SenseBoard only)
 │   │   └── 10_06_2025/                      (10 runs)
 │   └── Maneuvers/
 │       ├── 08_06_2025/
@@ -55,7 +55,7 @@ Data_Sailnjord/
 │
 └── Hyères November 2025/
     ├── Straight_lines/
-    │   └── 25_11_2025/                      (7 runs — Gian Stragiotti.csv | Max Maeder.csv)
+    │   └── 25_11_2025/                      (7 runs  :  Gian Stragiotti.csv | Max Maeder.csv)
     ├── Maneuvers/
     │   └── 30_11_2025/                      (3 runs)
     └── Starts/
@@ -68,7 +68,7 @@ Data_Sailnjord/
 
 ```
 FormulaKiteDataAnalysis/
-├── Data_Sailnjord/                          # dataset (not in git — see above)
+├── Data_Sailnjord/                          # dataset (not in git  :  see above)
 │
 ├── Straight Run_port_camargue/              # straight run analysis, Port Camargue
 ├── Straight Run_hyeres/                     # straight run analysis, Hyères
@@ -86,7 +86,7 @@ FormulaKiteDataAnalysis/
 
 Each analysis folder has its own `README.md` describing its pipeline in detail.
 
-Each folder is intentionally self-contained. Hyères and Port Camargue differ in available data (sensors, riders, session types) and in the specific analyses run, so sharing code across locations would have added complexity — conditional logic, location-specific parameters — with no real benefit. As a result, some utility functions are duplicated across folders with location-specific modifications, which was a deliberate trade-off in favour of readability and independence over DRY abstraction.
+Each folder is intentionally self-contained. Hyères and Port Camargue differ in available data (sensors, riders, session types) and in the specific analyses run, so sharing code across locations would have added complexity  :  conditional logic, location-specific parameters  :  with no real benefit. As a result, some utility functions are duplicated across folders with location-specific modifications, which was a deliberate trade-off in favour of readability and independence over DRY abstraction.
 
 ---
 
@@ -144,6 +144,6 @@ Then place the `Data_Sailnjord/` folder in the repository root.
 
 ## Running the Analysis
 
-To run everything at once, open and execute **`ALLrunner.ipynb`** at the repository root. It runs each folder's `runner.ipynb` sequentially — straight runs, weight analysis, maneuvers, and starts — with each notebook executed in its own directory so all relative paths resolve correctly.
+To run everything at once, open and execute **`ALLrunner.ipynb`** at the repository root. It runs each folder's `runner.ipynb` sequentially  :  straight runs, weight analysis, maneuvers, and starts  :  with each notebook executed in its own directory so all relative paths resolve correctly.
 
 To run a single campaign or analysis type, open the `runner.ipynb` inside the relevant folder and execute it directly.

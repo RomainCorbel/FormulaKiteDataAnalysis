@@ -25,27 +25,25 @@ Notebooks are run in order via **`runner.ipynb`**.
    - Re-sorts line tensions: `Line_C2` = max, `Line_L2` = mid, `Line_R2` = min.
    - Output: `all_data.csv`.
 
-4. **`analysis.ipynb`**
-   - Statistical analysis of navigation and line data.
-   - Covers: correlation matrix, ANOVA, OLS regression, t-tests (Gian vs Max, master vs slave).
-
-5. **`MainReport2.ipynb`**
+4. **`MainReport.ipynb`**
    - Comparative report across all runs.
    - Per-run KPIs: SOG, VMG, heel, line tensions, directional gains, winner determination.
 
-6. **`LeviVSChub.ipynb`**
+5. **`LeviVSChub.ipynb`**
    - Paired comparison of mast types (Levi vs Chubanga) across matched intervals.
    - Uses OLS regression controlling for rider and role to isolate the mast effect.
 
-7. **`mast_ttest.ipynb`**
-   - T-tests on the effect of mast type on SOG.
+### Supplementary Notebooks (not in runner)
+
+- **`analysis.ipynb`** — statistical analysis of navigation and line data: correlation matrix, ANOVA, OLS regression, t-tests (Gian vs Max, master vs slave).
+- **`mast_ttest.ipynb`** — t-tests on the effect of mast type on SOG.
 
 ---
 
 ## Python Utility Scripts
 
 - **`cog_analysis.py`** — interval detection, COG change detection, trajectory plotting.
-- **`report_fct2.py`** — run loading, statistics computation, directional gain, comparison plots.
+- **`report_fct.py`** — run loading, statistics computation, directional gain, comparison plots.
 - **`analysis.py`** — correlation, ANOVA, OLS regression, t-test wrappers.
 - **`leviVSchub.py`** — paired interval builder, mast-type grouping, OLS and ANOVA for mast effect.
 
@@ -63,4 +61,3 @@ Notebooks are run in order via **`runner.ipynb`**.
 
 - No SenseBoard load cell data available for this campaign — `addsenseboarddata.ipynb` is not present.
 - Includes `LeviVSChub.ipynb` for dedicated mast comparison analysis.
-- Uses `report_fct2.py` instead of `report_fct.py` (extended version with additional plot types).

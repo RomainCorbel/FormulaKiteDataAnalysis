@@ -8,7 +8,7 @@ Analysis of race starts from the Hyères testing campaign (November 30, 2025).
 
 ## Pipeline
 
-There is no `runner.ipynb` for this folder — the single notebook is run directly.
+Notebooks are run via **`runner.ipynb`**, which executes `Start_analysis.ipynb`.
 
 1. **`Start_analysis.ipynb`**
    - Loads start intervals from `summary.json`.

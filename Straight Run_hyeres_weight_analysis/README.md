@@ -30,11 +30,8 @@ Notebooks are run in order via **`runner.ipynb`**.
 Each of the following notebooks applies a different weight filter and tests whether SOG differs significantly between groups:
 
 - **`weight_impact.ipynb`** — baseline analysis across all weight combinations
-- **`weight_impact_2.ipynb`** — variant with alternative grouping
 - **`weight_impact_below120.ipynb`** — subset restricted to riders below 120 kg
-- **`weight_impact_below120_2.ipynb`** — variant of the above
 - **`weight_impact_below120_above105.ipynb`** — subset between 105 and 120 kg
-- **`weight_impact_below120_above105_2.ipynb`** — variant of the above
 - **`weight_impact_with_instantaneous.ipynb`** — includes instantaneous SOG in the analysis
 
 ---
@@ -42,7 +39,7 @@ Each of the following notebooks applies a different weight filter and tests whet
 ## Python Utility Scripts
 
 - **`cog_analysis.py`** — interval detection and trajectory plotting.
-- **`report_fct2.py`** — run loading, statistics, directional gain, comparison plots.
+- **`report_fct.py`** — run loading, statistics, directional gain, comparison plots.
 - **`analysis.py`** — correlation, ANOVA, OLS regression, t-test wrappers.
 - **`weight_impact.py`** — core functions for paired interval building, weight-group aggregation, OLS and ANOVA on weight effect.
 

@@ -32,7 +32,6 @@ Notebooks are run in order via **`runner.ipynb`**.
 
 - **`cog_analysis.py`** — maneuver detection (COG change detection, SOG minima, classification).
 - **`report_fct.py`** — data loading, statistics, time-series plots.
-- **`report_fct2.py`** — extended plotting functions.
 - **`Report_with_eval.py`** — evaluation helpers and multi-subplot comparison functions.
 
 ---

@@ -24,37 +24,42 @@ FormulaKiteDataAnalysis/
 
 ### Data structure inside `Data_Sailnjord/`
 
-Each run folder contains:
-- **Rider CSV files** (`Gian Stragiotti.csv`, `Karl Maeder.csv`, etc.) — Vakaros telemetry: position, speed, wind, heel, line tensions
-- **SenseBoard CSV** (`SenseBoard.csv`) — instrumented board telemetry
-- **SenseBoard log** (`SenseBoard_log_modified_YYMMDD.xlsx`) — load cell data covering the full session day
-- **Interview files** (`Interview [Name] YYMMDD.xlsx`) — equipment setup, rider weight, mast brand, role assignment
+The data was originally recorded by Sailnjord and reformatted to the following structure (standardized file names and folder hierarchy).
+
+The structure differs slightly between the two campaigns:
+
+**Port Camargue** — each day folder contains:
+- One folder per run, each with the rider CSV files (`Gian Stragiotti.csv`, `Karl Maeder.csv`, `SenseBoard.csv`) — Vakaros telemetry: position, speed, wind, heel, line tensions
+- An `Interview and equipment/` folder — one Excel file per rider with equipment setup, rider weight, mast brand, and role assignment
+- A `senseboard_log/` folder — one Excel file covering the full day's SenseBoard load cell data (not split by run)
+
+**Hyères** — same structure, but without `senseboard_log/`: the SenseBoard load cell data is already embedded directly in the rider CSV files.
 
 ```
 Data_Sailnjord/
 ├── Port Camargue June 2025/
 │   ├── Straight_lines/
 │   │   ├── 06_06_2025/
-│   │   │   ├── Interview and equipment/
-│   │   │   ├── senseboard_log/
-│   │   │   └── 06_06_2025_Run{1..8}/   (Gian.csv | Karl.csv | SenseBoard.csv)
-│   │   ├── 07_06_2025/                  (10 runs)
-│   │   ├── 09_06_2025/                  (11 runs, Karl + SenseBoard only)
-│   │   └── 10_06_2025/                  (10 runs)
+│   │   │   ├── Interview and equipment/     (Interview [Name] 250606.xlsx)
+│   │   │   ├── senseboard_log/              (SenseBoard_log_modified_250606.xlsx)
+│   │   │   └── 06_06_2025_Run{1..8}/        (Gian Stragiotti.csv | Karl Maeder.csv | SenseBoard.csv)
+│   │   ├── 07_06_2025/                      (10 runs)
+│   │   ├── 09_06_2025/                      (11 runs — Karl + SenseBoard only)
+│   │   └── 10_06_2025/                      (10 runs)
 │   └── Maneuvers/
 │       ├── 08_06_2025/
 │       │   ├── Interview and equipment/
 │       │   ├── senseboard_log/
 │       │   └── 08_06_2025_Run{1..6}/
-│       └── 11_06_2025/                  (5 runs)
+│       └── 11_06_2025/                      (5 runs)
 │
 └── Hyères November 2025/
     ├── Straight_lines/
-    │   └── 25_11_2025/                  (7 runs — Gian + Max Maeder)
+    │   └── 25_11_2025/                      (7 runs — Gian Stragiotti.csv | Max Maeder.csv)
     ├── Maneuvers/
-    │   └── 30_11_2025/                  (3 runs)
+    │   └── 30_11_2025/                      (3 runs)
     └── Starts/
-        └── 30_11_2025/                  (10 races)
+        └── 30_11_2025/                      (10 races)
 ```
 
 ---

@@ -137,40 +137,6 @@ def mean_by_mast(df, label):
             )
     print(significance)
 
-# def analyze_mast_effect(df_paired: pd.DataFrame) -> dict:
-#     df = df_paired.copy()
-#     df["d_avg_SOG_mast"] = np.where(
-#         df["boat1_mast"] == "Levi",
-#         df["boat1_avg_SOG"] - df["boat2_avg_SOG"],
-#         df["boat2_avg_SOG"] - df["boat1_avg_SOG"],
-#     )
-
-#     # Weight difference (Levi − Chub)
-#     df["d_weight_mast"] = np.where(
-#         df["boat1_mast"] == "Levi",
-#         df["boat1_total_weight"] - df["boat2_total_weight"],
-#         df["boat2_total_weight"] - df["boat1_total_weight"],
-#     )
-
-#     # --------------------------------------------------------
-#     # OLS model on paired differences
-#     # --------------------------------------------------------
-
-#     model_sog = smf.ols(
-#         """
-#         d_avg_SOG_mast ~ 1
-#             + C(boat1_name)
-#             + C(boat2_name)
-#             + C(leg_type)
-#             + C(boat1_master_leeward)
-#             + d_weight_mast
-#         """,
-#         data=df,
-#     ).fit(cov_type="HC3")
-
-#     return {
-#         "sog_model": model_sog,
-#     }
 
 
 def analyze_mast_effect(df_paired: pd.DataFrame) -> dict:
@@ -205,27 +171,6 @@ def analyze_mast_effect(df_paired: pd.DataFrame) -> dict:
     return {
         "sog_model": model_sog,
     }
-
-# def analyze_mast_effect_by_leg(df_paired: pd.DataFrame, label: str):
-#     df = df_paired.copy()
-#     model = smf.ols(
-#         """
-#         d_avg_SOG_mast ~ 1
-#             + C(boat1_name)
-#             + C(boat1_master_leeward)
-#             + d_weight_mast
-#             + C(boat2_name)
-#         """,   
-#         data=df,
-#     ).fit(cov_type="HC3")
-
-#     print("=" * 70)
-#     print(f"Paired OLS — {label}")
-#     print(f"N paired intervals: {len(df)}")
-#     print(model.summary())
-#     print()
-
-#     return model
 
 
 def analyze_mast_effect_by_leg(df_paired: pd.DataFrame, label: str):

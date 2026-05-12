@@ -79,11 +79,14 @@ FormulaKiteDataAnalysis/
 │
 ├── Starts_hyeres/                           # race start analysis, Hyères
 │
+├── ALLrunner.ipynb                          # runs all folder runners sequentially
 ├── requirements.txt                         # pip dependencies
 └── environment.yml                          # conda environment (name: sail2, Python 3.10)
 ```
 
 Each analysis folder has its own `README.md` describing its pipeline in detail.
+
+Each folder is intentionally self-contained. Hyères and Port Camargue differ in available data (sensors, riders, session types) and in the specific analyses run, so sharing code across locations would have added complexity — conditional logic, location-specific parameters — with no real benefit. As a result, some utility functions are duplicated across folders with location-specific modifications, which was a deliberate trade-off in favour of readability and independence over DRY abstraction.
 
 ---
 
@@ -137,4 +140,10 @@ Or with pip:
 pip install -r requirements.txt
 ```
 
-Then place the `Data_Sailnjord/` folder in the repository root and run the notebooks inside the relevant analysis folder via `runner.ipynb`.
+Then place the `Data_Sailnjord/` folder in the repository root.
+
+## Running the Analysis
+
+To run everything at once, open and execute **`ALLrunner.ipynb`** at the repository root. It runs each folder's `runner.ipynb` sequentially — straight runs, weight analysis, maneuvers, and starts — with each notebook executed in its own directory so all relative paths resolve correctly.
+
+To run a single campaign or analysis type, open the `runner.ipynb` inside the relevant folder and execute it directly.

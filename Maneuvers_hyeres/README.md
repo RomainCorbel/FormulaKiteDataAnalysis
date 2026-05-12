@@ -1,4 +1,4 @@
-# Maneuvers — Hyères
+# Maneuvers : Hyères
 
 Analysis of jibes and tacks from the Hyères testing campaign (November 30, 2025).
 
@@ -14,7 +14,7 @@ Notebooks are run in order via **`runner.ipynb`**.
    - Detects maneuver windows (jibes and tacks) from COG and SOG signals.
    - Classification: jibe (TWA > 90°), tack (TWA < 90°).
    - Validates each maneuver with an entry speed threshold and COG inversion check.
-   - Output: `summary.json` — one entry per maneuver with start/end time, type, and auxiliary details.
+   - Output: `summary.json` : one entry per maneuver with start/end time, type, and auxiliary details.
 
 2. **`merge_all.ipynb`**
    - Clips raw CSV files to each maneuver window.
@@ -30,21 +30,21 @@ Notebooks are run in order via **`runner.ipynb`**.
 
 ## Python Utility Scripts
 
-- **`cog_analysis.py`** — maneuver detection (COG change detection, SOG minima, classification).
-- **`report_fct.py`** — data loading, statistics, time-series plots.
-- **`Report_with_eval.py`** — evaluation helpers and multi-subplot comparison functions.
+- **`cog_analysis.py`** : maneuver detection (COG change detection, SOG minima, classification).
+- **`report_fct.py`** : data loading, statistics, time-series plots.
+- **`Report_with_eval.py`** : evaluation helpers and multi-subplot comparison functions.
 
 ---
 
 ## Intermediate Files
 
-- `summary.json` — detected maneuver intervals
-- `all_data.csv` — merged row-level dataset
+- `summary.json` : detected maneuver intervals
+- `all_data.csv` : merged row-level dataset
 
 ---
 
 ## Differences from Port Camargue
 
 - Only Gian's maneuvers are analyzed (no Karl reports).
-- No SenseBoard load cell data — `addsenseboarddata.ipynb` is not present.
+- No SenseBoard load cell data : `addsenseboarddata.ipynb` is not present.
 - Only 3 runs recorded for this session.

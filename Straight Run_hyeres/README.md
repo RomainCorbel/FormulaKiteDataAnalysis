@@ -1,4 +1,4 @@
-# Straight Runs — Hyères
+# Straight Runs : Hyères
 
 Analysis of straight-line sailing intervals (upwind and downwind) from the Hyères testing campaign (November 25, 2025).
 
@@ -12,7 +12,7 @@ Notebooks are run in order via **`runner.ipynb`**.
 
 1. **`MainCOG.ipynb`**
    - Detects stable upwind and downwind intervals from raw telemetry using COG (Course Over Ground) change detection.
-   - Output: `summary.json` — one entry per interval with start/end timestamps, average SOG, average TWA, stability score.
+   - Output: `summary.json` : one entry per interval with start/end timestamps, average SOG, average TWA, stability score.
 
 2. **`AddInfoToSummary.ipynb`**
    - Reads interview files and attaches rider/equipment metadata to each interval.
@@ -44,22 +44,22 @@ Notebooks are run in order via **`runner.ipynb`**.
 
 ## Python Utility Scripts
 
-- **`cog_analysis.py`** — interval detection, COG change detection, trajectory plotting.
-- **`report_fct.py`** — run loading, statistics computation, directional gain, comparison plots.
-- **`analysis.py`** — correlation, ANOVA, OLS regression, t-test wrappers.
-- **`leviVSchub.py`** — paired interval builder, mast-type grouping, OLS and ANOVA for mast effect.
+- **`cog_analysis.py`** : interval detection, COG change detection, trajectory plotting.
+- **`report_fct.py`** : run loading, statistics computation, directional gain, comparison plots.
+- **`analysis.py`** : correlation, ANOVA, OLS regression, t-test wrappers.
+- **`leviVSchub.py`** : paired interval builder, mast-type grouping, OLS and ANOVA for mast effect.
 
 ---
 
 ## Intermediate Files
 
-- `summary.json` — detected intervals (output of step 1)
-- `summary_enriched.json` — intervals with equipment metadata (output of step 2)
-- `all_data.csv` — merged row-level dataset (output of step 3)
+- `summary.json` : detected intervals (output of step 1)
+- `summary_enriched.json` : intervals with equipment metadata (output of step 2)
+- `all_data.csv` : merged row-level dataset (output of step 3)
 
 ---
 
 ## Differences from Port Camargue
 
-- No SenseBoard load cell data available for this campaign — `addsenseboarddata.ipynb` is not present.
+- No SenseBoard load cell data available for this campaign : `addsenseboarddata.ipynb` is not present.
 - Includes `LeviVSChub.ipynb` for dedicated mast comparison analysis.

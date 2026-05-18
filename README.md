@@ -13,7 +13,7 @@ Three types of sessions are covered: straight runs (upwind and downwind speed te
 
 The raw and pre-processed data are **not stored in this repository** due to file size constraints.
 
-- Download the dataset: **[Dataset  :  link to be added]**
+- Download and unzip the dataset: **[Data_Sailnjord]** 
 - Once downloaded, place the `Data_Sailnjord/` folder directly inside `FormulaKiteDataAnalysis/` so that paths resolve correctly.
 
 The expected location is:
